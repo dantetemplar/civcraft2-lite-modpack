@@ -1042,7 +1042,7 @@ hash = "e9a0b0eb2d3db497296493268ff36546fb39bcc6698aab002ad7c336422a9e7f"
 
 [[files]]
 file = "config/millenaire-server.toml"
-hash = "3628aae49884a8f41ab008dee9176f73a3b35fd26bd39290108777724c425908"
+hash = "68e6a57afd1ba0c26893c87558e7caf343c1cd6b32ce753b47de4feea35ab5fc"
 
 [[files]]
 file = "config/minecolonies-client.toml"
@@ -21427,7 +21427,7 @@ metafile = true
 
 [[files]]
 file = "mods/millenaire.pw.toml"
-hash = "52f6bbb7f5fa37da4fd3b26fb6a2af5a5dfef1128cdbc0323e9a8751fe3956a2"
+hash = "2906567df6ef87b11d5e63bba90bc1ef74bc84813140e3f44aa909e92d6f55f2"
 metafile = true
 
 [[files]]

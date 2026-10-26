@@ -1,7 +1,7 @@
 #World generation settings
 [generation]
 	#Generate Millenaire villages in new chunks
-	generateVillages = false
+	generateVillages = true
 	#Generate lone buildings (inns, shrines, ruins) in new chunks
 	generateLoneBuildings = false
 	#Generate hamlet satellite villages around parent village types (e.g. Gros Bourg).

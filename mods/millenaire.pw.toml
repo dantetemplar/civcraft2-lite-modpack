@@ -1,13 +1,8 @@
 name = "Millenaire"
-filename = "millenaire-9.0.0-beta.2.jar"
+filename = "millenaire-9.0.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "c7161332fa3c4605992522535d773bb09332a76c"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 8508130
-project-id = 270871
+url = "https://www.millenaire.org/api/downloads/9.0.3~millenaire-9.0.3.jar"
+hash-format = "sha256"
+hash = "5882528027ac67e8759db3926ebef36abe2300029526582f80c7a988b583ec62"
