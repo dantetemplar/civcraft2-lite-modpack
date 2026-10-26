@@ -2050,7 +2050,7 @@ hash = "b67f95ce4090c1efa0511557c8d56b855edfd2fd5873922eba5e7e80b1e0cbfe"
 
 [[files]]
 file = "kubejs/server_scripts/civcraft_findme_tfc_placed_items.js"
-hash = "110baaa4ca83d790a5d05d10566bf61a2bf3218f17a86e74cbc96fa2676aa14e"
+hash = "928bdb74b1e864efe7ddfdf61531e0a76627d415ecdef7ada588e14a912ce607"
 
 [[files]]
 file = "kubejs/server_scripts/civcraft_millenaire_abstract_carpet_cost_patch_v2.js"
