@@ -1,0 +1,13 @@
+name = "Server Waypoint"
+filename = "server_waypoint-4.0.0-neoforge-mc1.21-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UyBaYBa7/versions/3L48HT7A/server_waypoint-4.0.0-neoforge-mc1.21-1.21.1.jar"
+hash-format = "sha512"
+hash = "72b2a66ecbb22e7ae43752c84cd2cec71972999151bffb6ca11092224403b3bec1300166bbf4cbadebe99a370fda7a1f2bbed7eaace91d7a655b8a0256791c73"
+
+[update]
+[update.modrinth]
+mod-id = "UyBaYBa7"
+version = "3L48HT7A"

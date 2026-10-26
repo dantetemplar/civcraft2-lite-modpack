@@ -473,6 +473,10 @@ file = "config/extraquests/locale.yml"
 hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
+file = "config/fallingtree.json"
+hash = "526afb0f0c19da62f78f80d3858889ba7cff09230db2f234d83007c2ce1d23e5"
+
+[[files]]
 file = "config/fancymenu/assets/civcraft.png"
 hash = "dd9519ad88035ac86d247b8eeb148f64f1941579ea528c5c929e039c60365cb5"
 
@@ -1201,6 +1205,10 @@ file = "config/securitycraft-server.toml"
 hash = "aef91897ca60187e81db5761222f2e211d5ba6ab73e9ede184655589f7272b2a"
 
 [[files]]
+file = "config/server_waypoint/client-config.json"
+hash = "d3368b5a5b1c7b6aac6fcb2a16cb5e040d3c83ca3bff104abd31c01cfbde7d59"
+
+[[files]]
 file = "config/shippy_ships-common.toml"
 hash = "2ebfc939adaba591451b22dab2d208a855513099b3ae3615c5ad19341b4f328b"
 
@@ -1455,6 +1463,14 @@ hash = "58c9270f258d0b224bb7d0f7c927544d5fbe5f1b8027c820e1e14ecbf48fb88c"
 [[files]]
 file = "config/xaeropatreon.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/xmmp-server.toml"
+hash = "ec1e55df87ddae884ad33d5d322e0208c2b5ae88ceba795950ab863a376bdad5"
+
+[[files]]
+file = "defaultconfigs/server_waypoint/config.json"
+hash = "cc96eeb93155957eca5e357f6ea1bf392a642cdd3a240d66660d1a04b55806e4"
 
 [[files]]
 file = "kubejs/CC2_Dual_NPC_Markers_README.txt"
@@ -21200,6 +21216,11 @@ hash = "59a8425c303cf646c23b65bd821620ce0b831e3406e521fddfc88d5534700fe9"
 metafile = true
 
 [[files]]
+file = "mods/fallingtree.pw.toml"
+hash = "bf64d7cf24af8bd32d3014348e9654d4f35a99ef5c9efda09615084627bba11b"
+metafile = true
+
+[[files]]
 file = "mods/fancymenu.pw.toml"
 hash = "7af8f88228a806938e6c231edc631b657d3d9e878a5aa7e318b89a0fc0e20a75"
 metafile = true
@@ -21490,6 +21511,11 @@ hash = "2b6dbfb086631ead3588f0860897b6face659a0ef96cbb60925f7f320f7f4fd7"
 metafile = true
 
 [[files]]
+file = "mods/server-waypoint.pw.toml"
+hash = "5a379d99b244608a1a14f1979c7900383132c2ba953c45a683ed15ff93690071"
+metafile = true
+
+[[files]]
 file = "mods/shippy-ships.pw.toml"
 hash = "582cb38928d30dd18be3a1a8ff61d66d8d2f9978dbfc8425b833c95cc886296a"
 metafile = true
@@ -21600,6 +21626,11 @@ hash = "a4b8414820403324e9322f255bc6a5f7faea3e528567ce747784448ff26c3de8"
 metafile = true
 
 [[files]]
+file = "mods/xaeros-maps-multiplayer-plus.pw.toml"
+hash = "7390043c57bff6e500299bc74d465897d75c65f16146d78bfbe5ea39d9cb799d"
+metafile = true
+
+[[files]]
 file = "mods/xaeros-minimap.pw.toml"
 hash = "0ac231585628d658191d191d1556ddb7c747e1fee48ebcd9664e3bf4d70413ec"
 metafile = true
@@ -21607,4 +21638,9 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "75a34b59313b6cd61d92b6a01fce03286fbe017c52c41e9b33d9c1cd773524c4"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
 metafile = true

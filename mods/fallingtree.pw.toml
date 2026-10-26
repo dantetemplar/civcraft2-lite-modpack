@@ -1,0 +1,16 @@
+name = "FallingTree"
+filename = "FallingTree-1.21.1-1.21.1.3.jar"
+side = "server"
+# 1.21.1.4+ excludes LOG_START from durability accounting but still subtracts one.
+# Keep the last version that charges each felled log with damageMultiplicand = 1.
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/Fb4jn8m6/versions/SG8ZsOic/FallingTree-1.21.1-1.21.1.3.jar"
+hash-format = "sha512"
+hash = "96da06a41a0a56f84b7823b9f529b493f1034edf418b4c5f4a57c5cb90df03066b5fae27635e44b9d6821251f73e172adfbb76340a3dde817d73f7c66f787a37"
+
+[update]
+[update.modrinth]
+mod-id = "Fb4jn8m6"
+version = "SG8ZsOic"

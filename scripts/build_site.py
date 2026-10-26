@@ -37,7 +37,7 @@ def main() -> None:
         relative = entry['file']
         source = checked_path(relative)
         assert source.suffix not in {'.jar', '.zip', '.mrpack'}, f'Binary redistribution: {relative}'
-        assert source.parts[len(ROOT.parts)] in {'mods', 'config', 'kubejs', 'millenaire', 'millenaire-custom'}, f'Unexpected distribution path: {relative}'
+        assert source.parts[len(ROOT.parts)] in {'mods', 'config', 'defaultconfigs', 'kubejs', 'millenaire', 'millenaire-custom'}, f'Unexpected distribution path: {relative}'
         assert digest(source, entry.get('hash-format', index['hash-format'])) == entry['hash'], f'Stale file hash: {relative}'
         if entry.get('metafile'):
             mod = tomllib.loads(source.read_text())

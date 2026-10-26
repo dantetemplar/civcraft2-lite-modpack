@@ -1,0 +1,17 @@
+{
+  "CommandPermission": {
+    "add": 0,
+    "edit": 0,
+    "remove": 2,
+    "navigate": 0,
+    "tp": 2,
+    "reload": 2,
+    "upload": 2,
+    "uploadDelete": 4,
+    "remoteList": 0,
+    "remoteTp": 2
+  },
+  "Features": {
+    "sendXaerosWorldId": false
+  }
+}

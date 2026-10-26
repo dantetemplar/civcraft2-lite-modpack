@@ -18,6 +18,12 @@ packwiz.json
 pw.toml
 logs
 saves
+/xaero
+/xmmp
+/XaeroWaypoints
+/XaeroWorldMap
+/XaeroWaypoints_BACKUP*
+/XaeroWorldMap_BACKUP*
 screenshots
 crash-reports
 backups

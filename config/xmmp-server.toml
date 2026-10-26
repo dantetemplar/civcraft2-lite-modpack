@@ -1,0 +1,16 @@
+# Rates count map chunks per second per player, not bytes.
+# No storage quota is available; monitor and back up <world>/xmmp.
+enableChunkValidation = true
+regionFlushInterval = 30000
+maxDownloadWindow = 32
+downloadRateLimit = 32.0
+downloadBurst = 16.0
+
+[shared]
+# Keep Xaero's World Map layered caves available locally.
+syncCaves = false
+uploadWindow = 16
+uploadRateLimit = 16.0
+uploadBurst = 8.0
+regionRequestRateLimit = 2.0
+regionRequestBurst = 4.0
