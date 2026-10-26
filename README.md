@@ -2,9 +2,9 @@
 
 Клиентская сборка Minecraft **1.21.1**, NeoForge **21.1.247**, Java **21**. Packwiz проверяет и устанавливает обновления перед каждым запуском игры.
 
-## Установка в PolyMC / Prism Launcher
+## Установка в PolyMC / Prism / Freesm Launcher
 
-1. Скачай [CivCraft2Lite-1.1.3.1-fix2.2-Packwiz.zip](https://github.com/dantetemplar/civcraft2-lite-modpack/releases/download/v1.1.3.1-fix2.2/CivCraft2Lite-1.1.3.1-fix2.2-Packwiz.zip).
+1. Скачай архив для своего лаунчера: [Prism / Freesm](https://github.com/dantetemplar/civcraft2-lite-modpack/releases/download/v1.1.3.1-fix2.4/CivCraft2Lite-1.1.3.1-fix2.4-Prism-Freesm-Packwiz.zip) или [PolyMC](https://github.com/dantetemplar/civcraft2-lite-modpack/releases/download/v1.1.3.1-fix2.4/CivCraft2Lite-1.1.3.1-fix2.4-PolyMC-Packwiz.zip).
 2. В лаунчере выбери **Добавить сборку / Add Instance → Импорт из ZIP / Import** и укажи скачанный архив.
 3. В настройках экземпляра выбери **Java 21**. Архив выделяет игре 8 ГБ памяти; компьютеру нужно больше 8 ГБ общей RAM, чтобы оставалась память для системы.
 4. До первого запуска установи шесть модов из списка ниже. Открой папку Minecraft нового экземпляра через лаунчер и положи JAR-файлы в `mods`. Не распаковывай сами JAR.
@@ -35,7 +35,9 @@ Packwiz управляет модами, конфигурациями сборк
 
 Старые версии **отслеживаемых Packwiz** модов удаляются при обновлении. Посторонние JAR, добавленные вручную, могут остаться: не держи две версии одного мода в `mods`.
 
-Версии Minecraft и NeoForge задаются отдельно в лаунчере. Установщик запускается с `--multimc-folder .packwiz`, чтобы обойти несовпадение идентификатора NeoForge между Packwiz Installer и PolyMC/Prism; автоматическая смена загрузчика отключена.
+Версии Minecraft и NeoForge задаются отдельно в лаунчере. Установщик запускается с `--multimc-folder .packwiz`; автоматическая смена загрузчика отключена. Prism/Freesm используют идентификатор NeoForge `net.neoforged`, PolyMC — `net.neoforged.neoforge`, поэтому ZIP-архивы различаются.
+
+Если старый ZIP в Prism/Freesm сообщает «Не удалось скачать метаданные для net.neoforged.neoforge 21.1.247», закрой лаунчер и в `mmc-pack.json` в папке экземпляра (рядом с `instance.cfg`, не внутри `.minecraft`) замени только `"uid": "net.neoforged.neoforge"` на `"uid": "net.neoforged"`. Версию `21.1.247` не меняй. Затем открой лаунчер и запусти экземпляр. Для PolyMC эта замена не нужна.
 
 URL обновлений: <https://raw.githubusercontent.com/dantetemplar/civcraft2-lite-modpack/main/pack.toml>. Используется HTTPS raw GitHub: у GitHub Pages аккаунта сейчас проблема с сертификатом пользовательского домена.
 
@@ -72,7 +74,8 @@ uv run --no-project scripts/attach_instance.py "/путь/к/экземпляр�
 Собрать новый ZIP лаунчера:
 
 ```bash
-uv run --no-project scripts/build_launcher.py /путь/к/новому-архиву.zip
+uv run --no-project scripts/build_launcher.py --launcher prism /путь/к/Prism-Freesm-Packwiz.zip
+uv run --no-project scripts/build_launcher.py --launcher polymc /путь/к/PolyMC-Packwiz.zip
 ```
 
 Оригинальная сборка: [CivCraft 2 Lite на CurseForge](https://www.curseforge.com/minecraft/modpacks/civcraft-2-lite). Авторство и лицензии модов и исходного контента принадлежат их авторам.

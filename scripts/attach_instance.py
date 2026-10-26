@@ -20,7 +20,8 @@ def main() -> None:
     components = json.loads((instance / 'mmc-pack.json').read_text())
     versions = {component['uid']: component.get('version') for component in components['components']}
     assert versions.get('net.minecraft') == '1.21.1', 'Expected Minecraft 1.21.1'
-    assert versions.get('net.neoforged.neoforge') == '21.1.247', 'Expected NeoForge 21.1.247'
+    neoforge = [component for component in components['components'] if component['uid'] in {'net.neoforged', 'net.neoforged.neoforge'}]
+    assert len(neoforge) == 1 and neoforge[0].get('version') == '21.1.247', 'Expected one NeoForge 21.1.247 component'
     minecraft = instance / '.minecraft'
     if not minecraft.is_dir():
         minecraft = instance / 'minecraft'
