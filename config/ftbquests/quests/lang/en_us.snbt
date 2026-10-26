@@ -92,7 +92,12 @@
 	quest.751FAA8295010A00.quest_subtitle: "Vessel unto honor...."
 	quest.796725D955488B18.quest_subtitle: "Makes them ring....."
 	quest.7C526B4B998A48FE.title: "Charcoal Mound"
-	quest.7EEF0B2971C22D80.quest_desc: ["Welcome to CivCraft governor! In this modpack, you will embark on a journey through the ages of Civilization building up towns with resource gathering semi autonomy! Follow these quests to get started and remember: Press \"R\" on an item to see what you need to make it. Press \"U\" on an item to see what you CAN MAKE with it."]
+	quest.7EEF0B2971C22D80.quest_desc: [
+		"Welcome to CivCraft, governor! Embark on a journey through the ages of civilization and build towns whose villagers can gather resources semi-autonomously. Follow these quests to get started!"
+		"Hover over an item in your inventory or JEI and press \"R\" to see how to craft it, or \"U\" to see what you can make with it."
+		"Looking for a stored item? Hover over it in your inventory or JEI and press \"Y\" to highlight nearby containers holding it. This also searches inside supported nested containers and TFC containers placed on the ground with \"V\". The default search radius is 8 blocks, and highlights last 30 seconds. You can change the key in Controls > FindMe; if it conflicts with Xaero's Minimap, rebind one of them."
+		"You can also open JEI recipes from this quest book: click an item in a quest task to open \"Valid items\", then click the item in that window to view its recipe."
+	]
 	quest.7EEF0B2971C22D80.quest_subtitle: "Test of Time"
 	quest.7EEF0B2971C22D80.title: "Welcome to CivCraft!"
 	quest.7FD5B7E29422B13A.quest_desc: ["Clay can be found almost anywhere, but you need to find a rich deposit of it when just starting out. Any dirt block can hold clay and you can see it on the side. Clay is useful for all sort of appilcations."]
