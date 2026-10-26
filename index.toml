@@ -21216,6 +21216,11 @@ hash = "0fde89a78d83e67e6e1335c27947a2c27d007ddbda33319116666cffe95e8f9d"
 metafile = true
 
 [[files]]
+file = "mods/findme.pw.toml"
+hash = "2547220a2cc09cc15fed283955359250b438566d117fe7dd4210813499d7a1a4"
+metafile = true
+
+[[files]]
 file = "mods/framework.pw.toml"
 hash = "dd0153bc05a3ffc8592dfaf35b4e8014127e6e1b352d7c18462d49a1ed7a5035"
 metafile = true
