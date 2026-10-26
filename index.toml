@@ -21116,6 +21116,11 @@ hash = "e27b69ac5c6cde60c612cf2847ce4d5af04ef1f8d4e347328fce4ab1957738f2"
 metafile = true
 
 [[files]]
+file = "mods/configured.pw.toml"
+hash = "f455b46927df872ecd923424e6d643aeb50cb54c4783ef96c7d9a40c4c5f38a5"
+metafile = true
+
+[[files]]
 file = "mods/create-horse-power.pw.toml"
 hash = "a04a7a9e2b800ace57d0a4a5433c55f7034a38e9ab11a6d18f0d8e860bceb0f4"
 metafile = true
@@ -21553,6 +21558,11 @@ metafile = true
 [[files]]
 file = "mods/track-api.pw.toml"
 hash = "85edf29ec98f2dd64e72db0081d3167e89de8884daff34fd37db9233d9bed52d"
+metafile = true
+
+[[files]]
+file = "mods/trashslot.pw.toml"
+hash = "c1e0c805d5ccd49535a6820aa8a2461a516437f90312fcadd393f928e3ce7bf2"
 metafile = true
 
 [[files]]
