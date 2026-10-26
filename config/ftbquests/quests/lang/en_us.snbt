@@ -19,7 +19,8 @@
 	quest.102F6E287B312719.title: "Timber Framing"
 	quest.1434B88D24B91F7C.quest_desc: [
 		"Woodwork is hard work. You need to debark and then use a copper saw on the block in the world to saw it and cut it into shape. You can build various blocks for construction."
-		'{"text":"Field Guide: Building Materials","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/building_materials"}}'
+		'{"text":"Field Guide: Pottery (Saw Blade Mold)","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/pottery"}}'
+		'{"text":"Field Guide: Ores, Metal, and Casting","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/finding_ores"}}'
 	]
 	quest.1434B88D24B91F7C.quest_subtitle: "Sharpen the saw...."
 	quest.18715D48FB9FA93B.quest_desc: ["Candles are a gentle way to light an area. They are needed for early research point generation. You need to buy vanilla candles rather than make TFC ones."]
