@@ -10,7 +10,9 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-PACK_URL = 'https://dantetemplar.github.io/civcraft2-lite-modpack/pack.toml'
+# Account-level GitHub Pages currently redirects to an expired custom domain.
+# Raw GitHub provides a working HTTPS update origin without changing that domain.
+PACK_URL = 'https://raw.githubusercontent.com/dantetemplar/civcraft2-lite-modpack/main/pack.toml'
 BOOTSTRAP_URL = 'https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar'
 BOOTSTRAP_SHA256 = 'a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c'
 
