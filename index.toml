@@ -2049,6 +2049,10 @@ file = "kubejs/server_scripts/cc2_millenaire_create_crank_test.js"
 hash = "b67f95ce4090c1efa0511557c8d56b855edfd2fd5873922eba5e7e80b1e0cbfe"
 
 [[files]]
+file = "kubejs/server_scripts/civcraft_findme_tfc_placed_items.js"
+hash = "565d7c7fcdd7853f9e81278388b69e941176f44ef7a2b5b525e7a891b4b73460"
+
+[[files]]
 file = "kubejs/server_scripts/civcraft_millenaire_abstract_carpet_cost_patch_v2.js"
 hash = "d0c06a8b7f480b14c6fec0aac6a72396e4106e38f6920bb54ab6c3bf99d47ace"
 
