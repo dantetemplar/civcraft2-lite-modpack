@@ -1,0 +1,13 @@
+name = "Primitive creatures"
+filename = "primitive_creatures_2.7_1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GfUwaZEm/versions/y6c2vA2i/primitive_creatures_2.7_1.21.1.jar"
+hash-format = "sha512"
+hash = "a7fe2b84645c7cea816e49842488c92f1fb0dc522c5bbdb9ab68931b43d59a0f1b48d99c39930050fcfcf3434bcb5e47f48343b723bd5835b242a43eabe2dd36"
+
+[update]
+[update.modrinth]
+mod-id = "GfUwaZEm"
+version = "y6c2vA2i"

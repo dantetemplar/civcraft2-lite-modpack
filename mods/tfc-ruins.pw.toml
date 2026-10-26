@@ -1,0 +1,13 @@
+name = "TFC Ruins"
+filename = "tfc_ruins-1.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2JRpLCvK/versions/6PCcn8on/tfc_ruins-1.0.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "16ce5ac6926999f83dc24738cbc98487d2ac533e0c345d93ae4342b422b71133998f817d6796c7d9d161e4d6ad180774bdc4932487adf25de24fc66857ee6e95"
+
+[update]
+[update.modrinth]
+mod-id = "2JRpLCvK"
+version = "6PCcn8on"

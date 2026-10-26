@@ -21450,6 +21450,11 @@ hash = "cde744facf47275a72773b9866b1838df98f0b84ddce6d200784bc59908005db"
 metafile = true
 
 [[files]]
+file = "mods/primitivecreatures.pw.toml"
+hash = "deee89790980e84c2c732f2a7e24f113f033b91a2a57ba5246dad201134c0211"
+metafile = true
+
+[[files]]
 file = "mods/rats-unofficial-fixed.pw.toml"
 hash = "fab252f24fa3014a22b03e3c949a1ddab62d1c0159ad2fad131b94c14fe9d2d8"
 metafile = true
@@ -21562,6 +21567,11 @@ metafile = true
 [[files]]
 file = "mods/tfc-registry-api.pw.toml"
 hash = "284ecff4704873c584edad9ff2a4f57cb3ed3e5546048aa64c7a56be9f1e81c2"
+metafile = true
+
+[[files]]
+file = "mods/tfc-ruins.pw.toml"
+hash = "cca74cb493ab3cc53b211f5840eca182d553e7c1dab1b7e312152dc87215897a"
 metafile = true
 
 [[files]]
