@@ -1,11 +1,11 @@
 name = "CivCraft 2 Lite"
-version = "1.1.3.1-fix2.6"
+version = "1.1.3.1-fix2.7"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "3779e272568200f57c03216e8ffea360b9d7f3c59e833d7782a411916d57de7f"
+hash = "03595544f38b63106cfdad24016dcd7e0a6262dfce3502258e424ad55435c2da"
 
 [versions]
 minecraft = "1.21.1"

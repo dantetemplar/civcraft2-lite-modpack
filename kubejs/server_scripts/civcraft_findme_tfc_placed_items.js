@@ -4,6 +4,29 @@ const $CCFindMeMod = Java.loadClass('com.buuz135.findme.FindMeMod')
 const $CCPlacedItemBlockEntity = Java.loadClass('net.dries007.tfc.common.blockentities.PlacedItemBlockEntity')
 const $CCFindMeItemStack = Java.loadClass('net.minecraft.world.item.ItemStack')
 const $CCFindMeBiPredicate = Java.loadClass('java.util.function.BiPredicate')
+const $CCFindMeTFCComponents = Java.loadClass('net.dries007.tfc.common.component.TFCComponents')
+
+function ccFindMePlacedStackMatches(storedStack, searchedStack) {
+    if (storedStack.isEmpty()) {
+        return false
+    }
+    if ($CCFindMeItemStack.isSameItem(searchedStack, storedStack)) {
+        return true
+    }
+    // Read the immutable component directly: Vessel.get() creates a mutable heat view.
+    // Inspect one level only; do not extract, update food/heat, or recurse into containers.
+    const vessel = storedStack.get($CCFindMeTFCComponents.VESSEL.get())
+    if (vessel != null) {
+        const contents = vessel.itemContent()
+        for (let slot = 0; slot < contents.size(); slot++) {
+            let containedStack = contents.get(slot)
+            if (!containedStack.isEmpty() && $CCFindMeItemStack.isSameItem(searchedStack, containedStack)) {
+                return true
+            }
+        }
+    }
+    return false
+}
 
 const ccFindMePlacedItems = new $CCFindMeBiPredicate({
     test(blockEntity, searchedStack) {
@@ -13,8 +36,8 @@ const ccFindMePlacedItems = new $CCFindMeBiPredicate({
         const inventory = blockEntity.getInventory()
         for (let slot = 0; slot < inventory.getSlots(); slot++) {
             // JEI supplies a pristine stack; placed tools may have damage or other components.
-            const storedStack = inventory.getStackInSlot(slot)
-            if (!storedStack.isEmpty() && $CCFindMeItemStack.isSameItem(searchedStack, storedStack)) {
+            let storedStack = inventory.getStackInSlot(slot)
+            if (ccFindMePlacedStackMatches(storedStack, searchedStack)) {
                 return true
             }
         }

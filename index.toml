@@ -2050,7 +2050,7 @@ hash = "b67f95ce4090c1efa0511557c8d56b855edfd2fd5873922eba5e7e80b1e0cbfe"
 
 [[files]]
 file = "kubejs/server_scripts/civcraft_findme_tfc_placed_items.js"
-hash = "565d7c7fcdd7853f9e81278388b69e941176f44ef7a2b5b525e7a891b4b73460"
+hash = "110baaa4ca83d790a5d05d10566bf61a2bf3218f17a86e74cbc96fa2676aa14e"
 
 [[files]]
 file = "kubejs/server_scripts/civcraft_millenaire_abstract_carpet_cost_patch_v2.js"
@@ -21598,3 +21598,7 @@ metafile = true
 file = "mods/xaeros-world-map.pw.toml"
 hash = "75a34b59313b6cd61d92b6a01fce03286fbe017c52c41e9b33d9c1cd773524c4"
 metafile = true
+
+[[files]]
+file = "resume"
+hash = "b7e0ba5b63f68dffd3c4a15afdeb8fd9d752b37ff9f8bffa66f8a60bf99fed09"
