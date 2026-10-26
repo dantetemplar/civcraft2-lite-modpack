@@ -1,0 +1,56 @@
+{
+  "handler": "crafting",
+
+  "priority": 120,
+  "priorityRandom": 10,
+
+  "scanRadius": 64,
+  "batchRadius": 8,
+
+  "maxActionsPerTask": 1,
+  "actionCooldown": 2400,
+  "stuckTimeout": 4000,
+
+  "walkSpeed": 0.6,
+
+  "buildingLimit": {
+    "#civcraft2:provisions": 120
+  },
+
+  "maxSimultaneousTotal": 1,
+
+  "minimumHour": 0,
+  "maximumHour": 12000,
+
+  "reoccurDelay": 1200,
+
+  "handlerParams": {
+    "buildingTag": "provision_storehouse",
+
+    "outputs": [
+      {
+        "item": "kubejs:vegetable_provisions",
+        "count": 4
+      },
+      {
+        "item": "kubejs:fruit_provisions",
+        "count": 3
+      },
+      {
+        "item": "kubejs:protein_provisions",
+        "count": 2
+      },
+      {
+        "item": "kubejs:grain_provisions",
+        "count": 1
+      }
+    ]
+  },
+
+  "heldItems": [
+    "kubejs:vegetable_provisions",
+    "kubejs:fruit_provisions",
+    "kubejs:protein_provisions",
+    "kubejs:grain_provisions"
+  ]
+}

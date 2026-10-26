@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "type": "tfc:and",
+      "children": [
+        {
+          "item": "minecraft:cookie"
+        },
+        {
+          "type": "tfc:not_rotten"
+        }
+      ]
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 125,
+      "fluid": "create:honey"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "farmersdelight:honey_cookie"
+    }
+  ],
+  "modifiers": [
+    "tfc:copy_food"
+  ]
+}

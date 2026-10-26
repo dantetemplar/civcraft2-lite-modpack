@@ -1,0 +1,13 @@
+name = "Millenaire"
+filename = "millenaire-9.0.0-beta.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c7161332fa3c4605992522535d773bb09332a76c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8508130
+project-id = 270871

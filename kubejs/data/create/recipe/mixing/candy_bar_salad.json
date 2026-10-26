@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "c:chocolate/bar"
+    },
+    {
+      "tag": "c:apple/sliced"
+    },
+    {
+      "tag": "c:foods/custard"
+    },
+    {
+      "tag": "c:marshmallow"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "extradelight:whipped_cream_fluid"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "extradelight:caramel_sauce_fluid"
+    }
+  ],
+  "results": [
+    {
+      "id": "extradelight:candy_bar_salad"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tfc_ie_addon"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:nuggets/lead"
+      }
+    }
+  ],
+  "type": "tfc:heating",
+  "ingredient": {
+    "tag": "c:nuggets/lead"
+  },
+  "result_fluid": {
+    "id": "tfc_ie_addon:metal/lead",
+    "amount": 10
+  },
+  "temperature": 500
+}

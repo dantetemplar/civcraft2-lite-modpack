@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"farmersdelight:cutting_board"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"extradelight:hanging_ham"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfc:canola"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

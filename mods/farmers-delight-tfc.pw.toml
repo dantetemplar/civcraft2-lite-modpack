@@ -1,0 +1,17 @@
+name = "Farmer's Delight TFC"
+filename = "FarmersDelight_TFC-1.21.1-neoforge-1.0.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WXhDTEXL/versions/4tKZ9j5c/FarmersDelight_TFC-1.21.1-neoforge-1.0.8.jar"
+hash-format = "sha512"
+hash = "1724d9e6799140442dc43887a81bcad3f9ea8f4af6aa7b9f5c85c545c3b7d0a9ca8580b6e729206d8a6a1289db0b94ade58a0d92071e1ca99ca1d296e494d250"
+
+[update]
+[update.modrinth]
+mod-id = "WXhDTEXL"
+version = "4tKZ9j5c"
+
+[update.curseforge]
+file-id = 7121033
+project-id = 951750

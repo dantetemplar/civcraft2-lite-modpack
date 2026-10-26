@@ -1,0 +1,17 @@
+name = "ARLib"
+filename = "arlib-1.0.33.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IY6pSlUL/versions/J40YrFd1/arlib-1.0.33.jar"
+hash-format = "sha512"
+hash = "d8f18313502508858619b8d5f2458f786ff8066f267c682740ca1813ad03afe3bccaa0b007cf0f36825f794b77c3d2144e83f34ad14f66cb7b97e8170e7f85a7"
+
+[update]
+[update.modrinth]
+mod-id = "IY6pSlUL"
+version = "J40YrFd1"
+
+[update.curseforge]
+file-id = 7846455
+project-id = 1038780

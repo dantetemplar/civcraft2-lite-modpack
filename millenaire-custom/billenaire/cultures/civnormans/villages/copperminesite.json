@@ -1,0 +1,17 @@
+{
+  "culture": "millenaire:civnormans",
+  "name": "Copper Mine",
+  "weight": 0,
+  "lone_building": true,
+  "radius": 16,
+  "show_town_hall_signs": false,
+  "player_controlled": false,
+  "shop": "coppermine",
+  "layout": [
+    {
+      "plan": "millenaire:civnormans/coppermine",
+      "role": "centre"
+    }
+  ],
+  "allow_extra_buildings": false
+}

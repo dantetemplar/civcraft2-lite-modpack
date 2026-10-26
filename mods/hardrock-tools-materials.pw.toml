@@ -1,0 +1,17 @@
+name = "Stone Crude Age  - (HardRock Tools & Materials)"
+filename = "htm-1.21.1-neoforge-1.0.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gSxy1iXB/versions/OE6Gumuz/htm-1.21.1-neoforge-1.0.8.jar"
+hash-format = "sha512"
+hash = "9fc3d9a55c0b3f960f22cee1f1d6c40d4480d995df3567f239c19a96b77a210b8eda2431584b71202bd5a0782f80960de4dc6b9408e1ac7815754d9cc0986698"
+
+[update]
+[update.modrinth]
+mod-id = "gSxy1iXB"
+version = "OE6Gumuz"
+
+[update.curseforge]
+file-id = 7130972
+project-id = 948055

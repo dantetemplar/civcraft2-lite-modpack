@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"millenaire:fire_pit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"supplementaries:soap"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:oak_fence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfc:metal/shears/red_steel","components":{"tfc:heat":{}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,13 @@
+name = "CNPC-npcpathfinding"
+filename = "npcpathfindinglegacy-1.0.0-1.21.1NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9a15a03542244adca7b0095023c69908caf37840"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8506441
+project-id = 1624879

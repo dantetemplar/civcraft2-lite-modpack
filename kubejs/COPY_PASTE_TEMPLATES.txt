@@ -1,0 +1,69 @@
+CIVCRAFT 2 POSSESSIONS - COPY/PASTE TEMPLATES
+==================================================
+
+NEW LOOT TABLE
+--------------
+
+,'my_new_table': [
+    { id: 'minecraft:stick', weight: 10, min: 1, max: 3 },
+    { id: 'minecraft:bowl',  weight: 5,  min: 1, max: 1 }
+]
+
+
+NEW CULTURE RULE
+----------------
+
+,'millenaire:myculture': {
+    addTables: ['my_culture_common']
+}
+
+
+NEW VILLAGE RULE
+----------------
+
+,'millenaire:myculture/myvillagetype': {
+    addTables: ['my_village_common']
+}
+
+
+NEW BUILDING RULE
+-----------------
+
+,'millenaire:myculture/mybuilding': {
+    addTables: ['my_building_table']
+}
+
+
+BUILDING THAT REPLACES ALL INHERITED LOOT
+-----------------------------------------
+
+,'millenaire:myculture/mybuilding': {
+    setTables: ['my_building_only'],
+    emptyChance: 15,
+    minRolls: 1,
+    maxRolls: 4
+}
+
+
+EXACT CULTURE + VILLAGE + BUILDING OVERRIDE
+-------------------------------------------
+
+'culture||village||building': {
+    setTables: ['my_exact_table']
+}
+
+
+DISABLE ONE BUILDING
+--------------------
+
+,'millenaire:myculture/mybuilding': {
+    disabled: true
+}
+
+
+ADD AN EXTRA NORMAL CONTAINER BLOCK
+----------------------------------
+
+var CC2P_EXTRA_CONTAINER_BLOCKS = [
+    'some_mod:some_container'
+]

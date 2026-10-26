@@ -1,0 +1,17 @@
+name = "Astikor Carts TFC"
+filename = "TFCAstikorCarts-1.21.x-1.2.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Q7dNt3PU/versions/B9JXgLXG/TFCAstikorCarts-1.21.x-1.2.4.jar"
+hash-format = "sha512"
+hash = "60b068bbc91195ccccefe08efc372b645761cca8e56d8a566c2bc0eb47f61622cfc04d628b8fd23eca45eeb0e89989999a5bb22185f8ebc681cfe43494843b8e"
+
+[update]
+[update.modrinth]
+mod-id = "Q7dNt3PU"
+version = "B9JXgLXG"
+
+[update.curseforge]
+file-id = 8054123
+project-id = 844019

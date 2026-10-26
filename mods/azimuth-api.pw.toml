@@ -1,0 +1,17 @@
+name = "Azimuth API"
+filename = "azimuth-1.4.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RpH8tmT1/versions/O3caj5PW/azimuth-1.4.7.jar"
+hash-format = "sha512"
+hash = "887d0217ae13ccda5f9acb8c240d8f48912da97e3a08c61bd696cc8d05bedf7ab123cb1919c0745158c9cc5a28d80878bed242d57f88a1d691d926bbc3f1a42a"
+
+[update]
+[update.modrinth]
+mod-id = "RpH8tmT1"
+version = "O3caj5PW"
+
+[update.curseforge]
+file-id = 8661574
+project-id = 1466331

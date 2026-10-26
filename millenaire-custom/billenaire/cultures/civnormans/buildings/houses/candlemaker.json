@@ -1,0 +1,43 @@
+{
+  "culture": "millenaire:civnormans",
+  "building_id": "candlemaker",
+  "category": "houses",
+  "native_name": "Candle Maker's Workshop",
+  "shop": "candlemaker",
+  "male": [
+    "candlemaker"
+  ],
+  "female": [
+		"wife"
+  ],
+  "icon": "minecraft:candle",
+  "tags": [
+    "candlemaker"
+  ],
+  "variants": [
+    {
+      "variant": "a",
+      "building_orientation": 1,
+      "levels": [
+        {
+          "level": 0,
+          "footprint": {
+            "width": 11,
+            "height": 10,
+            "depth": 16
+          },
+          "ground_level": -2
+        },
+        {
+          "level": 1,
+          "footprint": {
+            "width": 11,
+            "height": 10,
+            "depth": 16
+          },
+          "ground_level": -2
+        }
+      ]
+    }
+  ]
+}

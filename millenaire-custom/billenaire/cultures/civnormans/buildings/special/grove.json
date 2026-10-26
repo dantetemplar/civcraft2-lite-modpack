@@ -1,0 +1,53 @@
+{
+  "culture": "millenaire:civnormans",
+  "building_id": "grove",
+  "category": "special",
+  "native_name": "Grove",
+  "max_count": 2,
+  "min_distance": 0.9,
+  "icon": "minecraft:oak_sapling",
+  "tags": [
+    "grove"
+  ],
+  "variants": [
+    {
+      "variant": "a",
+      "building_orientation": 1,
+	  "tags": [
+        "grove",
+		"provision_reserve",
+        "nopaths"
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "footprint": {
+            "width": 22,
+            "height": 30,
+            "depth": 20
+          },
+		  
+		  "priority": 1000,
+          "path_width": 1,
+          "abstracted_production": [
+            "wood,64",
+            "wood_darkoak,64",
+            "wood_pine,64"
+          ],
+          "infoTreeSpawns": [
+            {
+              "sapling": "oak"
+            },
+            {
+              "sapling": "pine"
+            },
+            {
+              "sapling": "dark_oak"
+            }
+          ],
+          "ground_level": -1
+        }
+      ]
+    }
+  ]
+}

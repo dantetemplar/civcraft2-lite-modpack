@@ -1,0 +1,17 @@
+name = "Ballista"
+filename = "aw_vehicles-1.21.1-1.0.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/L9iy5vJ3/versions/5C8Bj7Xx/aw_vehicles-1.21.1-1.0.8.jar"
+hash-format = "sha512"
+hash = "003ca4fb784f00f41236e732fb4b4fe8b22dca5b241bd936e3cc264b4f961c1e06fc3fe79f8fcf2045bbbe2bdca13016f09218eb9b7670c7e0e152434b3ab4d2"
+
+[update]
+[update.modrinth]
+mod-id = "L9iy5vJ3"
+version = "5C8Bj7Xx"
+
+[update.curseforge]
+file-id = 6270706
+project-id = 1212462

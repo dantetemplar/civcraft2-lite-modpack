@@ -1,0 +1,24 @@
+{
+  "culture": "millenaire:civnormans",
+  "building_id": "fortress",
+  "category": "lone",
+  "native_name": "Fortress",
+  "shop": "fortress",
+  "variants": [
+    {
+      "variant": "a",
+      "building_orientation": 1,
+      "levels": [
+        {
+          "level": 0,
+          "footprint": {
+            "width": 20,
+            "height": 23,
+            "depth": 20
+          },
+          "ground_level": -3
+        }
+      ]
+    }
+  ]
+}

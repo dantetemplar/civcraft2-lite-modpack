@@ -1,0 +1,34 @@
+{
+  "culture": "millenaire:civnormans",
+  "building_id": "watchtower",
+  "category": "houses",
+  "native_name": "Watchtower",
+    "male": [
+    "guard",
+	"guard"
+  ],
+  "female": [
+    "wife"
+  ],
+  "tags": [
+    "patrol"
+  ],
+  "variants": [
+    {
+      "variant": "a",
+      "building_orientation": 1,
+      "levels": [
+        {
+          "level": 0,
+          "footprint": {
+            "width": 10,
+            "height": 9,
+            "depth": 10
+          },
+          "ground_level": -1,
+		  "priority": 600
+        }
+      ]
+    }
+  ]
+}

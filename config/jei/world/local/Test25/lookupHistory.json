@@ -1,0 +1,11 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"farmersdelight:tatami"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfc:food/beef","components":{"tfc:heat":{},"tfc:food":{"creation_date":36000}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:clay_ball"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:leather"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"waterflasks:bladder"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"waterflasks:leather_flask"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfc:stone/knife_head/sedimentary"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfc:stone/knife/sedimentary","components":{"minecraft:damage":6}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

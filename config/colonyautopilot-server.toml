@@ -1,0 +1,485 @@
+[master]
+	#The whole autopilot at one switch. Off, every subsystem stands down — no free materials,
+	#no placements, no research, no golems, nothing — and the colony reverts to plain vanilla
+	#MineColonies rules. Toggled in-game with /colonyautopilot on|off (for handing a built-up
+	#village back to survival play).
+	enabled = true
+
+[autoupgrade]
+	#Automatically queue build/upgrade work orders for colony buildings.
+	enabled = true
+	#How often every colony is re-checked for its next upgrade, in game-time seconds (scales with /tick rate).
+	# Default: 30
+	# Range: 5 ~ 3600
+	checkIntervalSeconds = 30
+	#Watchdog: a claimed construction order making no observable progress (no blocks placed, no
+	#materials arriving) for this many game-time minutes is cancelled and re-issued fresh — the
+	#manual town-hall cancel that un-sticks a jammed builder, automated. 0 disables.
+	#Healthy builds never trigger it (a moving blueprint cursor resets the clock), so the window
+	#is deliberately tight — a wedged builder should lose minutes, not an hour (world 17).
+	# Default: 20
+	# Range: 0 ~ 1440
+	stuckOrderGameMinutes = 20
+
+[trickle]
+	#Slowly materialize missing construction materials inside builders' huts.
+	enabled = true
+	#Items per game-time minute (scales with /tick rate) added to each builder's hut that is actively constructing.
+	# Default: 32
+	# Range: 1 ~ 1024
+	itemsPerMinute = 26
+
+[growth]
+	#Autonomously place new colony buildings following the growth plan.
+	enabled = true
+	#Place NEW buildings at all. Off (/colonyautopilot expansion off), the village stops
+	#sprawling — no more production buildings, homes or decorations — while defense stays
+	#covered (guard towers still rise where citizens work unguarded) and everything already
+	#standing keeps getting upgraded, repaired and outfitted.
+	expansion = true
+	#Minimum game-time minutes (scales with /tick rate) between two automatic building placements per colony — the village's growth pace.
+	# Default: 10
+	# Range: 1 ~ 1440
+	placementCooldownMinutes = 10
+	#How far from the town hall the site search may roam.
+	# Default: 80
+	# Range: 16 ~ 200
+	searchRadiusBlocks = 80
+	#Empty blocks kept between building footprints.
+	# Default: 3
+	# Range: 0 ~ 8
+	sitePaddingBlocks = 3
+	#Maximum terrain height difference across a candidate plot.
+	# Default: 3
+	# Range: 1 ~ 16
+	maxSurfaceVariance = 3
+	#Preferred maximum height difference between a new plot and the town hall.
+	#Plots further off-level (up a mountainside, down a gorge) are only used when nothing
+	#within the limit exists, so colonies founded against mountains still grow.
+	# Default: 10
+	# Range: 0 ~ 64
+	maxElevationDelta = 10
+	#Carve a walkable dirt path from each auto-placed building toward the town hall (fewer stuck citizens on uneven terrain).
+	buildPaths = true
+	#Keep the village grounds fully lit: wherever the ground around a building is dark enough
+	#for monsters to spawn (block light 0), a fence-and-glowstone lamp post goes up.
+	lightVillage = true
+	#The colony makes its own space: when a building repeatedly finds no natural plot, level the
+	#least-uneven candidate area (cut and fill, natural blocks only) and build there — when the
+	#fisher's hut has no fishable water nearby, dig it a pond — and when the forester's hut has
+	#no trees in reach, plant it a starter grove.
+	terraform = true
+	#OPEN the University the moment it is placed: the hut is set to level 1 so research starts
+	#immediately — half the growth plan waits behind it — while the builders raise the actual
+	#structure normally through a repair order. (The old flat instant-paste is gone: it kept
+	#landing wrong on real terrain — ghosts, missing foundations — and the builders ended up
+	#raising the structure anyway.) Levels 2+ and every other building build normally.
+	instantUniversity = true
+	#After the growth plan completes, keep adding homes (and guard towers) whenever the village is at bed capacity, until land runs out.
+	endlessExpansion = true
+	#Let the plot search see one chunk ring beyond the built village: short-lived chunk tickets
+	#on the immediate frontier while a placement is hunting for ground, so unattended growth is not
+	#fenced in by the loaded-chunk border when the player is away. Tickets are temporary and few —
+	#this widens the search by one ring, it does not keep the frontier permanently loaded.
+	frontierTickets = true
+	#The village deepens before it sprawls: endless expansion waits until every standing building
+	#is upgraded as far as vanilla allows (blueprint max, research caps).
+	upgradeBeforeExpansion = true
+	#Once the growth plan completes, the village militarises instead of sprawling: one extra
+	#guard tower per this many villagers. (The key name predates the militarisation
+	#change and is kept so existing configs carry over.)
+	# Default: 15
+	# Range: 5 ~ 100
+	citizensPerExtraProduction = 15
+	#The colony fields one DRUID for every this-many knight/archer guards — a 1-in-N militia
+	#medic-and-debuffer that throws Slowness/Weakness at the infected and buffs the guards. The
+	#autopilot keeps them armed with the reagent that upgrades their potions (see research.freeDruid)
+	#and garrisons them into the barracks towers in rotation with the melee/ranged guards. 0 disables
+	#druid auto-assignment.
+	# Default: 4
+	# Range: 0 ~ 64
+	guardsPerDruid = 4
+	#The militia's fighter mix: this many KNIGHTS for every one ARCHER (druids ride their own
+	#growth.guardsPerDruid ratio on top). 3 with guardsPerDruid=4 gives the pack's 3:1:1
+	#knights:archers:druids doctrine; 1 restores the old even split. Applies to garrison hiring,
+	#standalone guard-tower doctrine, and the once-a-day rebalance alike.
+	# Default: 3
+	# Range: 1 ~ 16
+	knightsPerArcher = 3
+	#Hard ceiling on how many STANDALONE guard towers the village will raise — the coverage
+	#valve and the post-plan militarisation valve both stop here. Barracks and barracks towers are
+	#NOT counted and keep their own growth. Together with the residence cap (homes stop once every
+	#job the colony has can be staffed) this gives the village a bounded end-state instead of
+	#sprawling forever.
+	# Default: 20
+	# Range: 0 ~ 200
+	guardTowerCap = 20
+	#Lay out crop fields beside each built Farm (scarecrow plots, seeds set, crops rotating
+	#wheat/carrot/potato/beetroot) and commission plantation field structures for each built
+	#Plantation — a farm or plantation without fields farms nothing, and only a player would
+	#otherwise place them.
+	farmFields = true
+	#Stock each built husbandry hut (shepherd, cowhand, chicken, swineherd, rabbit) with its
+	#founding pair of animals when none live inside its grounds, and set the apiary up with a
+	#registered bee nest, bees and flowers — herders breed animals, they cannot summon them.
+	starterAnimals = true
+	#Keep the Enchanter's draining stations assigned automatically: every staffed worker
+	#building except builders and guards (they roam — a visit only succeeds when the worker is
+	#near their hut, and a failed visit still burns that station for the day) and the enchanter
+	#itself. Without stations the enchanter idles on a BLOCKING complaint, and only a player
+	#could click them in. Off, station picks stay the player's.
+	enchanterStations = true
+	#Watch staffed gatherers (mine, lumberjack, farm, fishery, composter, apiary, florist)
+	#whose production statistics freeze for days — the wedge class that never complains — and
+	#unstick them: the mine gets its current level repaired first, anyone else is dismissed
+	#for a fresh hire (a rehire fully resets a jammed worker's AI). Off, wedged workers idle
+	#until a player notices them.
+	jobWatch = true
+	#Once the growth plan completes, have the builders raise up to this many small decorations
+	#(wells, fountains, gardens — whatever the colony's own style pack ships) around the village
+	#center. 0 disables.
+	# Default: 4
+	# Range: 0 ~ 32
+	decorationsTarget = 4
+
+[zones]
+	#Protected zones: areas the player marks — with the Zone Marker wand ('/colonyautopilot
+	#zone wand') or '/colonyautopilot zone' — that the autopilot builds AROUND. It never places a
+	#building, lays a field, carves a road, grades terrain or fells a tree inside one, so a player
+	#can raise their own spore defenses on ground the village will leave be. Off, existing marks are
+	#kept but no longer enforced.
+	enabled = true
+	#Largest a single zone may be on each side, in blocks. A corner pair wider than this is
+	#clamped down (the player is told), so one giant zone can't smother the whole claim.
+	# Default: 48
+	# Range: 1 ~ 256
+	maxEdge = 48
+	#How many zones one colony may hold. Further marks are refused until one is deleted.
+	# Default: 24
+	# Range: 1 ~ 256
+	maxPerColony = 40
+
+[research]
+	#Let the university research whatever unlocks the growth plan's buildings, through the vanilla
+	#tree with every gate intact (university level, prerequisites, building requirements, item costs,
+	#a researcher working for the normal duration). The rest of the tree stays the player's.
+	autoResearch = true
+	#Research beyond building unlocks: first the population chain (without it every colony hard-caps
+	#at 25 citizens), then the rest of the tree. Mutually-exclusive forks and the one-per-branch
+	#tier-6 capstones are never auto-chosen — those choices stay the player's.
+	fullTree = true
+	#Tier-6 branch CAPSTONES for the autopilot to research too (comma-separated). Each branch allows
+	#only ONE — picking one PERMANENTLY locks that branch's other capstones — so they are left to the
+	#player by default. List the ones you want as "minecolonies:<branch>/<name>", comma-separated. The
+	#default is a knight-doctrine survival set: +6 max health to every citizen (civilian/guardianangel2),
+	#the knights' armor mastery (combat/masterswordsman — its parry prerequisite line is a fork choice,
+	#see research.forks), and faster building (technology/madness).
+	#Blank = pursue none. Only ONE per branch is honoured; a second in the same branch can never complete.
+	capstones = "minecolonies:civilian/guardianangel2,minecolonies:combat/masterswordsman,minecolonies:technology/madness"
+	#Standing choices at MUTUALLY-EXCLUSIVE research forks (comma-separated research ids). Starting
+	#one child of an exclusive fork locks its siblings out forever, so forks are left to the player by
+	#default — listing a child here makes it YOUR standing choice and the autopilot researches that line.
+	#The default set arms a knight-heavy militia (the pack's doctrine): combat/parry (knight armor line, feeds
+	#the masterswordsman capstone; locks out dodge = the archers' armor line), combat/avoid (guards flee
+	#faster when hurt; locks out feint), combat/quickdraw (knight melee damage line; locks out preciseshot
+	#= archer damage), civilian/bandaid (citizens regenerate faster; locks out resistance), and
+	#civilian/nurture (children grow up faster — the war colony's population engine; locks out morebooks
+	#= faster school learning). This default set decides EVERY exclusive fork in MineColonies 1.1.1319 —
+	#with the three capstones above, no research choice is ever left waiting on the player (total
+	#autonomy). Blank = the autopilot decides no forks and every either/or stays yours.
+	forks = "minecolonies:combat/parry,minecolonies:combat/avoid,minecolonies:combat/quickdraw,minecolonies:civilian/bandaid,minecolonies:civilian/nurture"
+	#The village is born knowing how to build: every research granting builder block-place or
+	#block-break speed (plus its prerequisites) is completed FREE the moment a colony first
+	#evaluates — no university needed. If a speed research sits behind a mutually-exclusive
+	#fork, granting it decides that fork.
+	freeBuildSpeed = true
+	#The barracks is pre-unlocked: its unlock research (Tactic Training) and every prerequisite
+	#is completed FREE the moment a colony first evaluates, so the guard barracks — the colony's
+	#defensive backbone — can be built without waiting for the university to research it.
+	freeBarracks = true
+	#The population-cap research is pre-unlocked: the whole CITIZEN_CAP chain (which raises
+	#max citizens past the default 25) is completed FREE at colony birth, so the village grows
+	#as fast as its beds allow instead of stalling at 25 until the university grinds up to it.
+	freePopulation = true
+	#The druids fight the infection at full strength from the start: their unlock research
+	#(Druid Potions / 'effects/consumepotions', normally deep in the combat tree behind Barracks
+	#level 3) is completed FREE at colony birth, and — paired with the reagent the autopilot keeps
+	#them supplied — every druid throws LEVEL-III splash potions (Slowness and Weakness on the
+	#infected, Strength/Resistance/Instant-Health on the guards) instead of the weak level-I default.
+	#Does nothing without druids (see growth.guardsPerDruid).
+	freeDruid = true
+
+[workshops]
+	#Teach each built crafter a starter set of real vanilla recipes (planks, stone bricks, iron
+	#tools, bread...) and switch on producers that ship idle (crusher daily limit, composter list) —
+	#construction and tool requests then get produced in-colony instead of conjured.
+	teachRecipes = true
+	#Keep a standing minimum stock of staple goods in the warehouse; shortfalls become requests
+	#that only the taught workshops can fulfill, which keeps them producing into the warehouse.
+	warehouseStock = true
+	#Keep storage from silting shut: when a warehouse, a builder's hut, or a worker's own
+	#pockets run out of free slots, void true junk (rotten flesh, poisonous potatoes) and trim
+	#bulk rubble (cobble, dirt, gravel and kin) back to a healthy floor — a clogged builder
+	#stops working entirely ('Please make space in my chests/racks'). Valuables, food, gear
+	#and every item a builder's shopping ledger still needs are never touched.
+	warehouseJanitor = true
+
+[providence]
+	#Conjure the items of requests nothing in the colony can fulfill, after a delay.
+	enabled = true
+	#How long a request must sit unfulfillable before the colony provides for itself (tools, food, anything workers
+	#are stuck on), in game-time seconds (scales with /tick rate).
+	# Default: 120
+	# Range: 30 ~ 3600
+	delaySeconds = 1800
+	#Feed starving citizens — from their own provisions first, pantry bread otherwise — until a
+	#restaurant serves (citizen hunger never reaches the request system without one, and a wedged
+	#eat-AI starves citizens even with full pockets).
+	pantry = true
+	#Nurse sick citizens back to health (cure items provided), ALWAYS — a sick citizen stops
+	#working entirely, and a colony-wide epidemic can take the hospital's own healer down with
+	#everyone else (a sick healer cures nobody, himself included). The healer is cured first so
+	#the vanilla cure path comes back; the hospital keeps working in parallel when it can.
+	infirmary = true
+	#Recruit a tavern visitor into the colony (recruit cost paid by providence) whenever beds are
+	#free — at most one per colony per game day, so the village still mostly grows its own.
+	recruitVisitors = true
+	#After a bloody night, refill the ranks faster: while the colony sits below the citizen count
+	#it held at the last dusk, the one-recruit-per-day limit above is lifted so every willing tavern
+	#visitor can sign on until the losses are replaced. Growth beyond the pre-casualty count still
+	#obeys the daily limit — the surge only ever restores, never accelerates.
+	recruitSurge = true
+	#Read the war forecasts and brace BEFORE the fight lands: when MineColonies schedules a raid
+	#for tonight, or (with Spore Inquisition) the corruption clock nears an ordeal escalation, the
+	#evening sweep doubles the combat-potion and scroll top-ups, tops guard gear eagerly instead of
+	#waiting for requests to strand, and allows the militia one extra rebalance conversion that day.
+	#Stocks the DEFENDERS only — the attackers and the night's danger are never touched.
+	anticipateThreats = true
+	#Cancel MineColonies' death penalty on visitor arrivals: vanilla cuts off NEW tavern visitors
+	#for ~20 game-minutes after ANY citizen or visitor dies ('word has got around that your village is
+	#not safe, less visitors are likely to come'). For an autopilot colony — especially under a spore
+	#assault where deaths are constant — that dries up recruitment exactly when the village needs
+	#replacements most. On, the tavern's visitor cooldown is cleared every sweep so travellers keep
+	#arriving; the tavern's own max-visitor cap still bounds how many actually spawn.
+	keepVisitorsComing = true
+	#Once an Alchemist's Tower stands, keep a small standing stock of combat potions in the
+	#warehouse — splash Harming to hurl at the infected, plus Healing / Regeneration / Strength for
+	#the fight — so the player has a ready anti-infection supply from their own colony. Kept
+	#deliberately small (potions are one-per-slot in vanilla); the warehouse janitor caps any surplus.
+	combatPotions = true
+	#Once the Enchanter's Tower stands, keep a small standing stock of his scrolls in the
+	#warehouse for the player: 4 Scrolls of Colony Teleportation, plus 2 Scrolls of Guard Help
+	#(the whole on-duty guard force ports to you for a fight) once the tower reaches level 3 —
+	#the level the enchanter himself would need to craft them.
+	enchanterScrolls = true
+	#Keep every worker's kit as good as the village can make it: vanilla never upgrades working
+	#gear, so a stone pickaxe survives into the diamond age and guards keep their first armor
+	#forever. One citizen per colony per round gets their strictly-worse tool or armor replaced
+	#with the best the workplace and the colony's crafters allow; the old piece is retired.
+	quartermaster = true
+
+[repair]
+	#Watch built buildings for missing structure (explosions, fire, creep, accidents) and re-paste
+	#the missing blocks straight from the blueprint — no builder is asked, intact blocks (racks and
+	#their stock included) are never touched. Builders only ever REPAIR a building whose structure is
+	#owed from an early-open (instant university/home, ghost placement), which this does not gate.
+	autoRepairDamage = true
+	#How many solid blueprint blocks must be missing before a building counts as damaged.
+	# Default: 8
+	# Range: 1 ~ 256
+	damageThresholdBlocks = 16
+	#Server ticks before the sweep re-scans the same building; this is the spore-cure and damage cadence.
+	#Lower is more responsive under a spore assault (slightly more CPU). Old lazy value was 24000 (one day).
+	# Default: 1200
+	# Range: 20 ~ 24000
+	rescanCooldownTicks = 1200
+
+[milestones]
+	#Broadcast colony chat messages on completed constructions and population growth.
+	enabled = true
+	#Announce NEW needs-eyes problems in colony chat as they are diagnosed (throttled, one line
+	#per problem) instead of leaving them buried in the log where no survival player looks —
+	#/colonyautopilot problems still lists everything on demand. Rides the milestones chat door,
+	#so milestones.enabled=false mutes these pushes too.
+	problemChat = true
+
+[spores]
+	#The spore entities allowed to BREAK BLOCKS — everyone else in the horde keeps its full
+	#DAMAGE but loses its demolition: explosions from unlisted spore mobs (the Howitzer's shells
+	#cratered the village live — pack ruling) destroy no blocks, and their other grief checks are
+	#refused everywhere. Ships with only the Proto Hivemind; the final-boss offerings summon the
+	#same spore:proto entity, so the finale keeps its teeth. The creep's GROUND CONVERSION is a
+	#separate mechanic and is never touched by this list — the Hivetumor and the mounds keep
+	#painting creep in the wild (and are still turned back at the colony border as always), they
+	#just can't blast craters anymore.
+	demolitionRights = ["spore:proto"]
+	#When the colony border is under SUSTAINED creep pressure — the same edge chunks keep
+	#re-infecting patrol after patrol — cull the spore SPREADERS in a narrow halo just beyond the
+	#claim so the siege source dies instead of feeding forever. Inside the claim nothing changes;
+	#the halo opens only under sustained pressure and never touches the bosses.
+	borderSiegeBreaker = true
+	#With the 'Fungal Infection: Spore' mod installed: the nursing round treats LIVING citizens
+	#carrying Mycelium Infection. No medicine in MineColonies or vanilla knows the foreign effect,
+	#so an infected worker would otherwise stand debuffed at his station, producing nothing,
+	#until it killed him (MineColonies citizens never convert — they simply die). Does nothing without that mod.
+	cureInfection = true
+	#How long (game ticks) a citizen's spore infection is left to FESTER before the nurse wipes
+	#it — deliberately NOT cured on sight, so the poison ticks (it damages once every 80 ticks) and
+	#gets a real chance to kill and convert. When the window elapses, EVERY spore effect the citizen
+	#carries is cleared at once; re-infection starts a fresh window. 240 ≈ three damage ticks (~12s at
+	#normal speed); 0 cures at the next nurse sweep (~40 ticks / 2s), since the sweep that first spots
+	#the infection only starts its clock. Scales with /tick rate like the rest of the mod.
+	# Default: 240
+	# Range: 0 ~ 24000
+	festerTicks = 240
+	#With BOTH 'Fungal Infection: Spore' and 'K-Turrets' installed: teach every turret and
+	#drone to target the infection's whole horde (the spore:fungus_entities tag, mounds
+	#included). Turrets pick their default targets by spawn category and Spore registers
+	#every creature as MISC — a 'friendly' category — so without this bridge the turrets
+	#stand idle while the infected walk past. Does nothing unless both mods are present.
+	turretsTargetInfected = true
+	#The quiet years: while the world is younger than this many game-time days, NEW spore
+	#creatures simply do not spawn (mounds, apostles and raid summons included) — the colony
+	#gets room to grow before the infection begins. Entities already saved in the world keep
+	#loading normally. Game-time days scale with /tick rate (a day is 24000 ticks however
+	#fast they pass). Does nothing without the Spore mod.
+	#DEFAULT 20: with Spore Inquisition installed the once-per-world rednight is re-delivered
+	#the moment the grace ends, so 20 gives the colony ~20 game-days of head start BEFORE the
+	#apocalypse (a day-1 rednight mauls a young village; the original 50-day default proved
+	#roomier than the pack wants — retuned to 20, 2026-07-13). Set 1 to TEST the rednight on
+	#the first night. IMPORTANT — 0 disables the grace AND the rednight: at 0 this addon steps
+	#aside for SI's own natural drop, which does not fire in this pack, so 0 means NO rednight
+	#at all. Keep 1+ to get the rednight. Set this at world CREATION (a world whose rednight
+	#already lives would get a second one later).
+	# Default: 20
+	# Range: 0 ~ 10000
+	gracePeriodDays = 10000
+	#The creep guard: every grounds patrol scrubs a slice of the village's built-up area —
+	#NON-DESTRUCTIVELY. It restores only the infection's lossless 1:1 conversions (infested
+	#stone/bricks/soil back to the exact original) and clears draped veins, lumps and stems to
+	#air (exposing the intact block beneath). Biomass masses that OVERWROTE a block are left
+	#alone — DamageWatch rebuilds those from the blueprint; guessing 'dirt' would bulldoze the
+	#village (which it did before this was fixed). Neither Spore mod offers a per-area switch.
+	creepGuard = true
+	#With BOTH 'Fungal Infection: Spore' and 'K-Turrets' installed: make every K-Turret
+	#immune to ALL damage — Spore's Mycelium Infection debuff (which a turret's machine body
+	#otherwise accepts and slowly dies to), plus mobs, fire and falls. A turret is then removed
+	#only the intended way, through its own menu; the void and /kill still work as an admin hatch.
+	#Does nothing unless K-Turrets is present.
+	turretsInvulnerable = true
+
+[problems]
+	#Keep the problem ledger: every WARN the autopilot logs (a parked watchdog, a crippled
+	#field, a defective blueprint) is remembered in memory for '/colonyautopilot problems', so a
+	#survival player can see what needs eyes without reading the server log. Pure bookkeeping —
+	#changes nothing in the world. Toggled in-game with /colonyautopilot problems on|off.
+	enabled = true
+
+[tweaks]
+	#The founder's satchel: a player's FIRST join of a world hands them a Town Hall block
+	#(the one manual act the autopilot asks for), Structurize's build tool, a blank Akashic
+	#Tome (when that mod is installed) and the pack's guide books as loose items (see
+	#spawnTomeBooks) — sneak-right-click a book onto the tome to bind it. Once per player
+	#per world.
+	spawnStarterKit = true
+	#Guide-book item ids handed to the player as LOOSE items beside the blank tome —
+	#binding is manual by design (a component-built pre-bound tome refused to morph
+	#in-game). Unknown ids are skipped, so extend freely as the pack gains guide books.
+	spawnTomeBooks = ["ae2:guide", "ars_nouveau:worn_notebook"]
+	#Patchouli BOOK ids (not item ids) also handed out with the satchel — every Patchouli
+	#manual is one shared item (patchouli:guide_book) stamped with the book's id, which the
+	#plain item list above cannot express. Ignored when Patchouli isn't installed; unknown
+	#ids give a book that says 'Invalid book', so keep this list to books the pack ships.
+	spawnPatchouliBooks = ["mysticalagriculture:guide", "immortuoscalyx:genetic_explanation_material"]
+	#Turn on MineColonies' 'workers always work in rain' setting on world start (never turns it off).
+	workersWorkInRain = true
+	#Turn off vanilla pillager patrol spawning per world start (doPatrolSpawning=false).
+	#Patrols wander in, wedge on high ground and snipe golems and guards from standstill
+	#(observed live) — the colony has its own raid system for drama. Never turned back on.
+	disableVanillaPatrols = true
+	#Keep every colony's built-up area chunk-loaded and ticking, so the village keeps living,
+	#building and growing while the player is away exploring.
+	keepVillageLoaded = true
+	#Once the town hall is built, keep one iron golem patrolling around it — plus one around every
+	#built blacksmith (each blacksmith is a guard post). Civilians flee by design; the golems fight
+	#for them. A fallen golem is reforged, at most once per post per game day.
+	villageGolem = true
+	#Hide the harmless startup ERRORs left behind by removing FarmersDelight from the pack:
+	#Spore Inquisition ships optional FarmersDelight-compat recipes, and without that mod the
+	#'farmersdelight:cooking' recipe serializer no longer exists, so Minecraft logs ~23 'Parsing
+	#error loading recipe farmersdelight:...' lines at every data-pack load. They change nothing —
+	#those recipes were never craftable here — but they bury real errors. On, a log filter drops
+	#exactly those lines (RecipeManager errors in the farmersdelight namespace) and nothing else.
+	#Off, they are logged normally. Does nothing if FarmersDelight is present.
+	muteFarmersDelightRecipeErrors = true
+	#Ship with vanilla fire SPREAD off (the doFireTick gamerule = false, set once per world start).
+	#A colony is mostly wood; a lightning strike, a stray creeper or a lava spill can otherwise burn
+	#building to building while the player is away, and an autocolony cannot fight its own fires. Blocks
+	#already alight just burn out in place instead of spreading. Never turned back on — a deliberate 'true'
+	#the player set stays respected. Applies at world start like the other gamerule tweaks.
+	disableFireTick = true
+	#Silence MineColonies' food-quality / food-diversity complaints (an autocolony does not need
+	#high-quality food): the citizen interactions 'I wish the dining hall menu would contain some better
+	#food options' and '...a bit more variety' (plus their urgent escalations) are cleared as they appear,
+	#and the food-quality HAPPINESS penalty is neutralized so morale is not docked for a plain diet.
+	#Citizens are still fed and still eat; only the nag and the penalty go. Off, MineColonies' normal
+	#tiered-food expectations apply.
+	ignoreFoodQuality = true
+	#Vanilla hard-codes the hostile ('monster') spawn cap at 70 — no gamerule, no setting. Both
+	#spawn ceilings read that one number (the world-wide cap of 70 x loaded spawnable chunks / 289,
+	#and the per-player cap of 70 monsters near any one player), so this key moves the whole night
+	#coherently, applied at world start. Ships at vanilla's 70: the pack ran 100 through 1.1.61 so
+	#the spore horde, vanilla night mobs and the pack's mob mods wouldn't starve each other for
+	#spawn slots, but the thicker NATURAL horde stacking on top of a spore raid lagged the live
+	#server (2026-07-13) — the spore war's own mounds and raids spawn directly and never counted
+	#against this cap, so raising it buys extra background monsters, not a bigger war. Raise it
+	#only if /spark tps stays healthy on raid nights.
+	# Default: 70
+	# Range: 10 ~ 1000
+	hostileSpawnCap = 70
+	#Multiply the duration of every beneficial or neutral brewable potion (pack request, 2026-07-10:
+	#'vanilla potions last longer'). Applied once per world start to the potion registry's effect
+	#templates, so drink, splash, lingering and tipped-arrow forms all scale together — modded brews
+	#included, the colony's own combat potions among them. HARMFUL effects (Poison, Slowness,
+	#Weakness...) stay vanilla-length so an enemy-thrown debuff doesn't grow with the multiplier
+	#(trade-off: the player's own harmful splashes stay vanilla too). Instant effects (Healing/
+	#Harming) are untouched. Ships at 2.0 (an eight-minute potion lasts sixteen); set 1.0 to restore
+	#vanilla. On a dedicated server, clients' potion TOOLTIPS may show the unscaled time — the effect
+	#you actually get is the scaled one.
+	# Default: 2.0
+	# Range: 1.0 ~ 10.0
+	potionDurationMultiplier = 2.0
+	#Citizens never stop work to mourn. MineColonies has no setting for its mourning system:
+	#a death sends every relative and housemate of the deceased graveyard-wandering for a FULL
+	#game-day starting at the next dawn — and in this pack night mobs are MEANT to kill citizens,
+	#so one bad night can idle half the village. On, the addon clears the mourning marks through
+	#MineColonies' own API before dawn can act on them (a death seconds before dawn may show a
+	#moment of grief, then everyone returns to work). The small one-off happiness penalty for a
+	#death is untouched. Off, vanilla mourning applies.
+	noMourning = true
+	#Citizens die clean: no grave block, no dropped or scattered items. MineColonies' grave
+	#system misfires too many ways for an unattended war village (observed live server): a death in
+	#lava or with no clear ground nearby spawns NO grave and the kit vanishes anyway; a spawned
+	#grave is a breakable block that mobs and the creep knock over, spraying items across the
+	#fight; and an expired grave dumps everything on the ground. On, a citizen's kit simply goes
+	#with them — the death message, statistics, mourning rules and recruitment are untouched, and
+	#the gear was colony-issued anyway (providence re-equips the replacement). The undertaker
+	#never gets a grave to collect, so grave resurrection never happens — recruits replace the
+	#fallen. Also retires the graveyard from the build plan and prunes the grave research line.
+	#Off, MineColonies' graves work as normal and a freshly GENERATED plan re-adds the graveyard
+	#step — but an existing colonyautopilot-growthplan.json is never rewritten: delete it to
+	#regenerate (a flip takes effect on the next world load).
+	noGraves = true
+	#Chunks kept permanently loaded around the WORLD SPAWN (vanilla's spawnChunkRadius
+	#gamerule, applied per world start). The rednight lands at world spawn — Spore Inquisition's
+	#once-per-world drop and the addon's grace-period return both summon there — and the mound
+	#only grows, the war only escalates, while that ground ticks. Vanilla 1.20.5+ keeps a bare
+	#radius-2 ring loaded, and a village founded away from spawn leaves nobody there to load
+	#more: the apocalypse sits frozen (observed live server). 10 gives a 19x19-chunk ENTITY-ticking
+	#core (the mound and its raids live there; block ticks reach 21x21 — a real but affordable
+	#cost). 0 leaves the world's own gamerule alone. This config owns the rule: an op's manual
+	#/gamerule spawnChunkRadius is reset to this value at the next world start — change this
+	#setting, not the gamerule.
+	# Default: 10
+	# Range: 0 ~ 32
+	spawnChunkRadius = 10

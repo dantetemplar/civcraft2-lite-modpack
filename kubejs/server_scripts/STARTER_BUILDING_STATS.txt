@@ -1,0 +1,79 @@
+CivCraft 2 v0.5 — Starter Building Balance
+===========================================
+
+These are deliberately BASIC first-pass values.
+
+PALACE
+security_supply       +12
+logistics_capacity    +16
+housing_capacity       +6
+commerce               +4
+administration_supply +40
+
+FORAGER HUT
+food_supply           +10
+tools_demand           +1
+logistics_demand       +1
+
+KITCHEN
+food_supply            +8
+food_service          +24
+fuel_demand            +2
+logistics_demand       +1
+
+KILN
+industry_supply        +8
+ceramics_supply       +10
+fuel_demand            +4
+tools_demand           +1
+
+LUMBERJACK HUT
+timber_supply         +16
+fuel_supply           +12
+tools_demand           +2
+logistics_demand       +2
+
+COPPER MINE
+copper_supply         +14
+industry_supply        +8
+tools_demand           +3
+logistics_demand       +3
+
+WORKSHOP
+tools_supply          +10
+industry_supply       +10
+fuel_demand            +2
+logistics_demand       +1
+
+FORTRESS
+security_supply       +36
+housing_capacity       +8
+food_demand            +8
+tools_demand           +3
+logistics_demand       +4
+
+TOWN HOVEL
+housing_capacity       +5
+
+MEETING HALL
+housing_capacity       +4
+security_supply        +3
+logistics_capacity     +4
+administration_supply +10
+
+WELL
+health_supply          +6
+sanitation_supply      +8
+
+GROVE
+timber_supply          +6
+fuel_supply            +4
+food_supply            +2
+
+POPULATION DEMAND
+food_demand       = population
+housing_demand    = population
+security_demand   = ceil(population / 4)
+fuel_demand       = ceil(population / 5)
+logistics_demand  = ceil(population / 8)
+health_demand     = ceil(population / 8)

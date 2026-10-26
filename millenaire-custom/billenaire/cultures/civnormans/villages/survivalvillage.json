@@ -1,0 +1,91 @@
+{
+  "culture": "millenaire:civnormans",
+  "name": "Survival Village",
+  "weight": 0,
+  "player_controlled": false,
+  "path_materials": [
+    "pathdirt",
+    "pathgravel",
+    "pathslabs"
+  ],
+  "radius": 80,
+  "layout": [
+    {
+      "plan": "millenaire:civnormans/meetinghall",
+      "role": "centre"
+    },
+    {
+      "plan": "millenaire:civnormans/foragershut",
+      "role": "start"
+    },
+    {
+      "plan": "millenaire:civnormans/grove",
+      "role": "start"
+    },
+    {
+      "plan": "millenaire:civnormans/lumberjackhut",
+      "role": "start"
+    },
+    {
+      "plan": "millenaire:civnormans/meetingspot",
+      "role": "core"
+    },
+    {
+      "plan": "millenaire:civnormans/foragershut",
+      "role": "core"
+    },
+    {
+      "plan": "millenaire:civnormans/quarry",
+      "role": "core"
+    },
+    {
+      "plan": "millenaire:civnormans/lumberjackhut",
+      "role": "core"
+    },
+    {
+      "plan": "millenaire:civnormans/storehouse",
+      "role": "core"
+    },
+    {
+      "plan": "millenaire:civnormans/well",
+      "role": "core"
+    },
+    {
+      "plan": "millenaire:civnormans/wheatpaddy",
+      "role": "core"
+    },
+    {
+      "plan": "millenaire:civnormans/kitchen",
+      "role": "core"
+    },
+    {
+      "plan": "millenaire:civnormans/workshop",
+      "role": "core"
+    },
+    {
+      "plan": "millenaire:civnormans/kiln",
+      "role": "core"
+    },
+    {
+      "plan": "millenaire:civnormans/hovel",
+      "role": "secondary"
+    },
+    {
+      "plan": "millenaire:civnormans/hovel",
+      "role": "secondary"
+    },
+    {
+      "plan": "millenaire:civnormans/watchtower",
+      "role": "secondary"
+    },
+    {
+      "plan": "millenaire:civnormans/candlemaker",
+      "role": "secondary"
+    },
+	{
+      "plan": "millenaire:civnormans/createmillstone",
+      "role": "secondary"
+    }
+  ],
+  "allow_extra_buildings": false
+}

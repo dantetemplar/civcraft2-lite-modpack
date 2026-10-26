@@ -1,0 +1,149 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_2_iron_age"
+	group: ""
+	icon: {
+		id: "minecraft:iron_sword"
+	}
+	id: "0BEA0445B9359975"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1D3C5D35F57754A7"]
+			icon: {
+				id: "minecraft:bookshelf"
+			}
+			id: "6003B099530E837E"
+			rewards: [
+				{
+					id: "783A35398F1FD237"
+					item: {
+						count: 1
+						id: "kubejs:palace_district_charter"
+					}
+					type: "item"
+				}
+				{
+					id: "7DF4CA70762F77A6"
+					item: {
+						count: 1
+						id: "kubejs:settlement_ledger"
+					}
+					type: "item"
+				}
+				{
+					id: "3F22C4A3E29F0A33"
+					item: {
+						count: 1
+						id: "kubejs:settlement_requisition"
+					}
+					type: "item"
+				}
+				{
+					id: "2C1069F2A41BF46C"
+					item: {
+						count: 1
+						id: "kubejs:survival_village_charter"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "1EFA7717367E00D6"
+				item: { count: 1, id: "millenaire:denier_or" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6003B099530E837E"]
+			id: "305C40108ED69833"
+			rewards: [{
+				id: "47996DE4C4678F75"
+				item: {
+					count: 1
+					id: "kubejs:religious_village_charter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "327102DFFFF83ED9"
+				item: { count: 1, id: "millenaire:denier_or" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6003B099530E837E"]
+			id: "5AC783C50DBD6F41"
+			rewards: [{
+				id: "5EBD184853E24B7D"
+				item: {
+					count: 1
+					id: "kubejs:mercantile_village_charter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "4B0775D2231ACA4F"
+				item: { count: 1, id: "millenaire:denier_or" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6003B099530E837E"]
+			id: "39FE2E5208BECA66"
+			rewards: [{
+				id: "44CB0F91D8FD099D"
+				item: {
+					count: 1
+					id: "kubejs:military_village_charter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "42DB809A987FC3FC"
+				item: { count: 1, id: "millenaire:denier_or" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6003B099530E837E"]
+			id: "35068C2AD6629152"
+			rewards: [{
+				id: "35C27956F3DFB962"
+				item: {
+					count: 1
+					id: "kubejs:agricultural_village_charter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "4BE111A6085E84FD"
+				item: { count: 1, id: "millenaire:denier_or" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+	]
+}

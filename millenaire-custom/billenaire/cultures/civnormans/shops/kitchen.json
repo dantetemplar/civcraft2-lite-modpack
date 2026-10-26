@@ -1,0 +1,23 @@
+{
+  "sells": [
+    "fd_bone_broth",
+    "fd_vegetable_soup",
+    "fd_onion_soup",
+    "fd_pumpkin_soup",
+    "fd_chicken_soup",
+    "fd_fish_stew",
+    "fd_noodle_soup",
+    "fd_beef_stew",
+    "fd_stuffed_potato",
+    "fd_cabbage_rolls",
+    "fd_dumplings"
+  ],
+  "buys": ["food_point"],
+  "buys_optional": [],
+  "deliver_to": [
+	"kubejs:grain_provisions",
+	"kubejs:protein_provisions",
+	"kubejs:vegetable_provisions",
+	"kubejs:fruit_provisions"
+  ]
+}

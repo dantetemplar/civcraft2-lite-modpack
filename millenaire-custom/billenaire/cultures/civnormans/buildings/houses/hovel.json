@@ -1,0 +1,41 @@
+{
+  "culture": "millenaire:civnormans",
+  "building_id": "hovel",
+  "category": "houses",
+  "native_name": "Hovel",
+  "max_count": 3,
+  	"male": [
+	"craftsman"
+	],
+	"female": [
+	"wife"
+	],
+  "variants": [
+    {
+      "variant": "a",
+      "building_orientation": 1,
+      "levels": [
+        {
+          "level": 0,
+          "footprint": {
+            "width": 13,
+            "height": 7,
+            "depth": 15
+          },
+          "ground_level": -3,
+		  "priority": 400
+        },
+        {
+          "level": 1,
+          "footprint": {
+            "width": 13,
+            "height": 7,
+            "depth": 15
+          },
+          "ground_level": -3,
+		  "priority": 200
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+[chat]
+	#Mute all colony chatter in YOUR chat only: MineColonies announcements (raids, research,
+	#deaths, citizen news) and the autopilot's village milestones. Toggled in-game with
+	#/colonyautopilot chat on|off. Other players are unaffected.
+	muteColonyChat = false

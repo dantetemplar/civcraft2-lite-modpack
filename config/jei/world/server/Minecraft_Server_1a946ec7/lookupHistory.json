@@ -1,0 +1,14 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"htm:flint_sharped"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"htm:hatchet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfc:wood/planks/pine"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:clay_ball"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfc:ore/small_native_copper","components":{"tfc:heat":{}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:straw_bale"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:rope"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"supplementaries:daub"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfc_items:leather_strap"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfc:food/beef","components":{"tfc:heat":{},"tfc:food":{"creation_date":7200}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfc:food/oat_grain","components":{"tfc:food":{"creation_date":28800}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

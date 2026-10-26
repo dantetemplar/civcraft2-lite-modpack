@@ -1,0 +1,37 @@
+{
+  "culture": "millenaire:civnormans",
+  "building_id": "normanpalace",
+  "category": "townhalls",
+  "native_name": "Norman Palace",
+  "tags": [
+  "settlement_palace"
+	],
+	"male": [
+	"guard",
+	"guard"
+	
+	],
+	"female": [
+	"wife"
+	
+	],
+  "inner_wall_type": "stonewalls",
+  "inner_wall_radius": 50,
+  "variants": [
+    {
+      "variant": "a",
+      "building_orientation": 1,
+      "levels": [
+        {
+          "level": 0,
+          "footprint": {
+            "width": 30,
+            "height": 28,
+            "depth": 30
+          },
+          "ground_level": -15
+        }
+      ]
+    }
+  ]
+}

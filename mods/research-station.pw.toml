@@ -1,0 +1,13 @@
+name = "Research Station"
+filename = "research_station-1.21.1-1.0.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4f9f71cac1a6845940123898b5a225c6da0f4874"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6241927
+project-id = 1167772

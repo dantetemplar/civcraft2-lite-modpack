@@ -1,0 +1,37 @@
+{
+  "handler": "crafting",
+  "priority": 70,
+  "priorityRandom": 10,
+  "scanRadius": 32,
+  "batchRadius": 8,
+  "maxActionsPerTask": 3,
+  "actionCooldown": 160,
+  "stuckTimeout": 4000,
+  "walkSpeed": 0.6,
+  "buildingLimit": {
+    "farmersdelight:basket": 8
+  },
+  "maxSimultaneousInBuilding": 1,
+  "minimumHour": -1,
+  "maximumHour": 12500,
+  "handlerParams": {
+    "buildingTag": "workshop",
+    "inputs": [
+      {
+        "item": "#tfc:log_pile_logs",
+        "count": 2
+      }
+    ],
+    "outputs": [
+      {
+        "item": "farmersdelight:basket",
+        "count": 1
+      }
+    ]
+  },
+  "heldItems": [
+    "tfc:wood/log/oak",
+    "farmersdelight:basket"
+  ],
+  "sound": "wood"
+}

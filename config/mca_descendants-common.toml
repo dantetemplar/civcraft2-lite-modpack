@@ -1,0 +1,29 @@
+["Configs for MCA Descendants"]
+	#Configure Whether The Descendant Mechanic is Hardcore Only
+	"Hardcore Only" = true
+	"Respawn in Afterlife Dimension" = true
+	"Play as Siblings" = true
+	"Play as Additional Family Members" = false
+	"Play as Previous Villagers If Revived" = true
+	"Instant Respawn" = true
+	#Only be able to spawn as fully grown offspring
+	"Adults Only" = false
+	#If you respawn as non-adult offspring, they instantly grow up
+	"Instant Growup" = false
+	"Player Growth" = true
+	#Adjust speed modifiers of each age state
+	"Baby Movement Speed" = 0.0
+	"Toddler Movement Speed" = 0.2
+	"Child Movement Speed" = 0.9
+	"Teen Movement Speed" = 1.2
+	"Adult Movement Speed" = 1.0
+	#Adjust heath modifiers (amount of half-hearts) of each age state
+	"Baby health" = 4
+	"Toddler health" = 6
+	"Child health" = 10
+	"Teen health" = 16
+	"Adult health" = 20
+	#Setting this to true enables you to redo villager creation, feature for survival/creative only
+	"Enable Respawn Without Descendants" = true
+	#If respawning as a random villager, percentage chance you respawn as a teenager
+	"Teenager Chance" = 10.0

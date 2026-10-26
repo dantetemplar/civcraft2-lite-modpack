@@ -1,0 +1,9 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"tfc:wooden_bucket","components":{"tfc:fluid":{"id":"tfc:salt_water","amount":1000}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfc:dirt/entisol"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfc:rock/loose/chert"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfc:drying_bricks/entisol"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfc:mud/entisol"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfc:stone/axe_head/sedimentary"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,17 @@
+name = "Stick It!"
+filename = "stickit-1.21.1-NeoForge-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mrR15dsb/versions/wEaEchSL/stickit-1.21.1-NeoForge-1.0.3.jar"
+hash-format = "sha512"
+hash = "6eb9b4bc6eaabb8d0899dabbaaa95fc966b8b9c7889c7617d36612514af54680befc71d1aba3299e6d5fd726b2200e80ecf80bbe57cfe92cc62bb373820ab077"
+
+[update]
+[update.modrinth]
+mod-id = "mrR15dsb"
+version = "wEaEchSL"
+
+[update.curseforge]
+file-id = 6602058
+project-id = 1167127

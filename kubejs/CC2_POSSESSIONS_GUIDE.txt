@@ -1,0 +1,345 @@
+CivCraft 2 - Modular Villager Possessions v4
+================================================
+
+WHAT THIS IS
+------------
+This replaces the working v3 script with an expandable configuration-driven
+version.
+
+It preserves the important v3 behavior:
+
+1. Only storage blocks that came from a Millenaire building template qualify.
+2. Player-placed copies are NOT touched.
+3. One physical container has one shared inventory for all players.
+4. Once processed, that position does not regenerate possessions.
+5. Existing non-empty furniture is never overwritten.
+6. Millenaire's own compilePlacementSteps() is used, not a guessed scan radius.
+7. TFC large vessels use their separate inventory interface.
+
+The new feature is hierarchical loot selection:
+
+    Default
+      -> Culture
+        -> Village Type
+          -> Building
+            -> Exact Context Override
+
+This lets you have broad cultural flavor plus very specific local clutter.
+
+
+INSTALL
+-------
+Delete/replace the old:
+
+    kubejs/server_scripts/civcraft_villager_possessions.js
+
+Merge the kubejs folder from this ZIP into the CivCraft 2 instance.
+
+Then restart or run:
+
+    /reload
+
+Search latest.log for:
+
+    CC2 Possessions v4
+
+
+THE FOUR THINGS YOU EDIT MOST
+-----------------------------
+
+1. CC2P_LOOT_TABLES
+2. CC2P_CULTURE_RULES
+3. CC2P_VILLAGE_RULES
+4. CC2P_BUILDING_RULES
+
+Almost everything you will normally add is in those four blocks.
+
+
+HOW INHERITANCE WORKS
+---------------------
+
+Example:
+
+DEFAULT:
+    common_household
+
+CULTURE millenaire:civnormans:
+    + norman_common
+
+VILLAGE millenaire:civnormans/survivalvillage:
+    + survival_village_common
+
+BUILDING millenaire:civnormans/foragershut:
+    + forager_hut
+
+A Forager Hut in the Survival Village therefore draws from:
+
+    common_household
+    norman_common
+    survival_village_common
+    forager_hut
+
+The item weights in all four lists are put into one combined weighted pool.
+
+
+HOW TO ADD A NEW LOOT TABLE
+---------------------------
+
+Inside CC2P_LOOT_TABLES add:
+
+    ,'norman_kitchen': [
+        { id: 'minecraft:bowl', weight: 20, min: 1, max: 3 },
+        { id: 'minecraft:charcoal', weight: 6, min: 1, max: 2 }
+    ]
+
+The comma before the new property is important if you put it after an existing
+table.
+
+
+HOW TO GIVE A BUILDING ITS TABLE
+--------------------------------
+
+Inside CC2P_BUILDING_RULES:
+
+    ,'millenaire:civnormans/kitchen': {
+        addTables: ['norman_kitchen']
+    }
+
+
+HOW TO GIVE A CULTURE ITS OWN GENERAL CLUTTER
+---------------------------------------------
+
+First create a table:
+
+    ,'seljuk_common': [
+        { id: 'minecraft:string', weight: 10, min: 1, max: 3 }
+    ]
+
+Then:
+
+    ,'millenaire:civseljuks': {
+        addTables: ['seljuk_common']
+    }
+
+
+HOW TO GIVE A VILLAGE TYPE ITS OWN LOCAL FLAVOR
+-----------------------------------------------
+
+Create:
+
+    ,'dry_frontier_common': [
+        { id: 'minecraft:charcoal', weight: 10, min: 1, max: 2 }
+    ]
+
+Then:
+
+    ,'millenaire:civseljuks/dryfrontier': {
+        addTables: ['dry_frontier_common']
+    }
+
+
+addTables VS setTables
+----------------------
+
+addTables INHERITS earlier tables:
+
+    {
+        addTables: ['kitchen']
+    }
+
+If the inherited tables were:
+
+    common_household
+    norman_common
+
+the result is:
+
+    common_household
+    norman_common
+    kitchen
+
+
+setTables REPLACES everything inherited:
+
+    {
+        setTables: ['special_kitchen_only']
+    }
+
+The result is ONLY:
+
+    special_kitchen_only
+
+This is how you make a building/village completely distinct rather than merely
+adding flavor.
+
+
+PER-RULE CONTAINER DENSITY
+--------------------------
+
+Any culture/village/building/exact rule may also change:
+
+    emptyChance: 10,
+    minRolls: 2,
+    maxRolls: 6
+
+For example:
+
+    'millenaire:civnormans/meetinghall': {
+        addTables: ['meetinghall_template'],
+        emptyChance: 5,
+        minRolls: 2,
+        maxRolls: 5
+    }
+
+
+DISABLING POSSESSIONS
+---------------------
+
+You can disable a culture, village or building:
+
+    'millenaire:someculture/sacredbuilding': {
+        disabled: true
+    }
+
+A more-specific rule can later re-enable it with:
+
+    disabled: false
+
+
+EXACT CONTEXT RULES
+-------------------
+
+Use CC2P_EXACT_CONTEXT_RULES if a building must behave differently only inside
+ONE particular village type.
+
+Key format:
+
+    culture||village||building
+
+Example:
+
+    'millenaire:civnormans||millenaire:civnormans/survivalvillage||millenaire:civnormans/foragershut': {
+        setTables: ['forager_hut'],
+        emptyChance: 10
+    }
+
+Because exact context rules run last, they have final say.
+
+
+HOW TO FIND THE CORRECT IDS
+---------------------------
+
+Leave:
+
+    var CC2P_DEBUG = true
+
+The script writes lines like:
+
+    [CC2 Possessions v4] culture=millenaire:civnormans,
+    village=millenaire:civnormans/survivalvillage,
+    building=millenaire:civnormans/foragershut,
+    tables=[...]
+
+Copy those IDs directly into your rules.
+
+Once your tables are stable, set CC2P_DEBUG = false if you want quieter logs.
+(The normal processed-building summary still appears when possessions are found.)
+
+
+ADDING ANOTHER CONTAINER BLOCK
+------------------------------
+
+If the storage block is a normal Container-style block entity, add its exact
+registry ID to:
+
+    CC2P_EXTRA_CONTAINER_BLOCKS
+
+Example:
+
+    var CC2P_EXTRA_CONTAINER_BLOCKS = [
+        'handcrafted:oak_cupboard'
+    ]
+
+The built-in special handling already covers the TFC large vessel.
+
+IMPORTANT:
+Adding an arbitrary storage mod here is not guaranteed to work if that mod uses
+a custom inventory API. The script will log an error rather than silently
+pretending it worked.
+
+
+WEIGHTS
+-------
+
+If a combined profile contains:
+
+    stick weight 20
+    bowl  weight 10
+    book  weight 2
+
+then stick is roughly twice as likely as bowl and ten times as likely as book
+when one stack is chosen.
+
+If the same item appears in several inherited tables, its effective chance
+increases because every entry participates in the combined pool.
+
+
+DATA VERSION / TESTING
+----------------------
+
+At the top:
+
+    var CC2P_DATA_VERSION = 'v4'
+
+DO NOT bump this every time you edit loot.
+
+New structures automatically use the newest table configuration.
+
+Bump it only when you deliberately want already-existing structures in a test
+world to be reconsidered. A bump can give an EMPTY old possession container one
+new fill because the script considers the new version unprocessed.
+
+Non-empty containers are still protected from being overwritten.
+
+
+COMMON MISTAKES
+---------------
+
+1. Misspelled item ID
+   The script logs it once and skips that entry.
+
+2. Misspelled table name in addTables/setTables
+   The script logs "Unknown loot table".
+
+3. Wrong Millenaire culture/village/building ID
+   Turn DEBUG on and copy the IDs from latest.log.
+
+4. Missing comma in the big JavaScript maps
+   KubeJS will report a script parse error on /reload.
+
+5. New furniture added to an NBT after the building already existed
+   The old world building may physically lack that furniture. Test with a newly
+   constructed/upgraded structure or deliberately bump CC2P_DATA_VERSION.
+
+
+SUGGESTED ORGANIZATION AS CIVCRAFT GROWS
+----------------------------------------
+
+Table naming convention:
+
+    common_household
+
+    norman_common
+    norman_kitchen
+    norman_workshop
+    norman_guard
+
+    seljuk_common
+    seljuk_kitchen
+    seljuk_workshop
+
+    survival_village_common
+    dry_frontier_common
+
+This makes the rule maps readable even when CivCraft eventually has dozens of
+cultures and hundreds of buildings.

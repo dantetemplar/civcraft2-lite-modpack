@@ -1,0 +1,17 @@
+name = "Age of Steam Core"
+filename = "age_of_steam-1.21.1-1.0.25.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Kc5MpHfb/versions/NWaPUJut/age_of_steam-1.21.1-1.0.25.jar"
+hash-format = "sha512"
+hash = "aa39610adc8243cae26f42d4c0d164b7f6e36c03d9c7f5197f646f0ef80f89bbe3c1f1c6717efc189ec4fd6331617e53ae60a73bac0d01b8e29e0b285d376131"
+
+[update]
+[update.modrinth]
+mod-id = "Kc5MpHfb"
+version = "NWaPUJut"
+
+[update.curseforge]
+file-id = 7846463
+project-id = 1157793

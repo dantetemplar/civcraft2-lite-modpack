@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"tfc_items:leather_sheet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:leather"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfc:goat_horn"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,59 @@
+{
+  "culture": "millenaire:civnormans",
+  "building_id": "meetinghall",
+  "category": "townhalls",
+  "native_name": "Meeting Hall",
+  "converter_skip": true,
+  "male": [
+    "seneschal",
+    "guard"
+  ],
+  "priority_move_in": 10,
+  "tags": [
+    "leisure"
+  ],
+  "icon": "minecraft:bell",
+  "shop": "townhall",
+  "travel_book_category": "townhall",
+  "variants": [
+    {
+      "variant": "a",
+      "building_orientation": 1,
+      "ground_level": -1,
+      "tags": [
+        "leisure"
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "footprint": {
+            "width": 20,
+            "height": 10,
+            "depth": 20
+          },
+          "priority": 800,
+          "signs": "5,3,1,2,4,6,8,0,7",
+          "ground_level": -1
+        },
+        {
+          "level": 1,
+          "footprint": {
+            "width": 20,
+            "height": 10,
+            "depth": 20
+          },
+          "priority": 600,
+          "ground_level": -1
+        },
+        {
+          "level": 2,
+          "footprint": {
+            "width": 20,
+            "height": 13,
+            "depth": 20
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "goal.millenaire.civ_forage_meetinghall": "Foraging",
+  "goal.millenaire.civ_forage_storehouse": "Foraging",
+  "goal.millenaire.forage_grove_provisions": "Foraging",
+  "goal.millenaire.take_grove_vegetables": "Foraging",
+  "goal.millenaire.take_grove_fruit": "Foraging",
+  "goal.millenaire.take_grove_protein": "Foraging",
+  "goal.millenaire.take_grove_grain": "Foraging",
+ "goal.millenaire.craft_thatchfromnothing": "Crafting Thatch",
+ "goal.millenaire.craft_leatherfromnothing": "Tanning Leather",
+ "goal.millenaire.mine_copper": "Mining Copper",
+ "building.millenaire.civnormans.foragershut": "Forager's Hut",
+ "goal.millenaire.cc2_crank_labor": "Cranking"
+ 
+}

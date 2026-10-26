@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"refurbished_furniture:oak_chair"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"handcrafted:oak_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"handcrafted:oak_side_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"refurbished_furniture:oak_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:torch"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

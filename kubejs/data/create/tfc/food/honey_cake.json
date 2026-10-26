@@ -1,0 +1,9 @@
+{
+  "ingredient": {
+    "tag": "civcraft_fix2:optional/createaddition/honey_cake"
+  },
+  "hunger": 4,
+  "saturation": 1.0,
+  "decay_modifier": 3.0,
+  "grain": 2.0
+}

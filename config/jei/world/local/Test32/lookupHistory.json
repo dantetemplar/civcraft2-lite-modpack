@@ -1,0 +1,4 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"tfc:pumpkin","components":{"tfc:food":{"traits":["tfc:wild"],"creation_date":14400}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,17 @@
+name = "KubeJS TFC"
+filename = "kubejs_tfc-1.21.1-2.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mhtClB2S/versions/2tLoZSdy/kubejs_tfc-1.21.1-2.0.2.jar"
+hash-format = "sha512"
+hash = "cb6279324ad7f3eeb41a684d71d33c5a94655a2ed0663443d872806e8b5d51f1388b242e292bab25535820954b19e598f771181887cad79534a9f3c22588b7ea"
+
+[update]
+[update.modrinth]
+mod-id = "mhtClB2S"
+version = "2tLoZSdy"
+
+[update.curseforge]
+file-id = 8468127
+project-id = 841001

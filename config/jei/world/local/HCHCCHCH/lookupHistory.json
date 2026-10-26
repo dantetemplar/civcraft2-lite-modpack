@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"tfc:stick_bundle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"horsepowered:drying_rack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"extradelight:drying_rack_item"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

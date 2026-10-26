@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:flour"
+    },
+    {
+      "tag": "extradelight:sweetener"
+    },
+    {
+      "tag": "c:butter"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "extradelight:nut_butter_fluid"
+    }
+  ],
+  "results": [
+    {
+      "id": "extradelight:nut_butter_cookie_dough"
+    }
+  ]
+}

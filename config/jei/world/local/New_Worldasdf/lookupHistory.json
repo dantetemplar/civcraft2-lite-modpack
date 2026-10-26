@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"extradelight:vat"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"extradelight:gherkins_block_item"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"extradelight:pickle_juice_fluid"},"type":"fluid_stack","bookmarkType":"INGREDIENT"}
+]

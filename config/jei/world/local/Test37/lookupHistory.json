@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"kubejs:survival_village_charter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfc:ore/small_native_copper","components":{"tfc:heat":{}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

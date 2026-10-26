@@ -1,0 +1,23 @@
+{
+  "sells": [
+    "kiln_ceramic_bowl",
+    "kiln_ceramic_jug",
+    "kiln_ceramic_pot",
+    "kiln_ceramic_vessel",
+    "kiln_large_vessel",
+
+    "kiln_copper_ingot"
+  ],
+
+  "buys": [
+    "kiln_clay",
+    "kiln_native_copper"
+  ],
+
+  "buys_optional": [],
+
+  "deliver_to": [
+    "minecraft:clay_ball",
+    "tfc:ore/small_native_copper"
+  ]
+}

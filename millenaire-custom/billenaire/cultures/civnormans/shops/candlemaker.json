@@ -1,0 +1,14 @@
+{
+  "sells": [
+    "candle"
+  ],
+  "buys": [
+    "animalfat",
+    "string"
+  ],
+  "buys_optional": [],
+  "deliver_to": [
+    "kubejs:animal_fat",
+    "minecraft:string"
+  ]
+}

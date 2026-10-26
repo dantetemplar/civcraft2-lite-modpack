@@ -1,0 +1,18 @@
+{
+  "type": "lychee:block_clicking",
+  "post": [
+    {
+      "type": "add_item_cooldown",
+      "s": 3
+    },
+    {
+      "type": "execute",
+      "command": "damage @s 1 minecraft:generic",
+      "repeat": false
+    }
+  ],
+  "item_in": {},
+  "block_in": {
+    "blocks": "minecraft:oak_log"
+  }
+}

@@ -1,0 +1,17 @@
+name = "KubeJS Offline Documentation"
+filename = "kubejsoffline-neoforge-1.21-5.2.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7I1fu1km/versions/ViNeqtNX/kubejsoffline-neoforge-1.21-5.2.3.jar"
+hash-format = "sha512"
+hash = "05da28102e94043b6970a6eaa126ebabcd0c757264cb2e2643064e19e5c04a751da34afacb9c7d0bfe64528d1f44abbce215f263ba8ce7ecb5aad89c57d314cd"
+
+[update]
+[update.modrinth]
+mod-id = "7I1fu1km"
+version = "ViNeqtNX"
+
+[update.curseforge]
+file-id = 8371073
+project-id = 641627

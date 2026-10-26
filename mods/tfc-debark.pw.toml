@@ -1,0 +1,13 @@
+name = "TFC Debark"
+filename = "tfc_debark-1.21.1-neoforge-1.0.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "994aa9e3aae3816ed93570b27eef2e87f93a1fc1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7884000
+project-id = 1016205

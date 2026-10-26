@@ -1,0 +1,17 @@
+name = "TFC Water Flasks"
+filename = "Waterflasks-1.21.1-4.0.1-beta.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ONgsGaM9/versions/bB49hjHB/Waterflasks-1.21.1-4.0.1-beta.jar"
+hash-format = "sha512"
+hash = "7b687fe502b4420f7f0bbd3664fc50353866b3b846a5738a07555982e902c6f08f50de09d2f85c5ca3b70d1826c8e3bfa151d66f9868b50028d1c57cb6266842"
+
+[update]
+[update.modrinth]
+mod-id = "ONgsGaM9"
+version = "bB49hjHB"
+
+[update.curseforge]
+file-id = 8264081
+project-id = 354353

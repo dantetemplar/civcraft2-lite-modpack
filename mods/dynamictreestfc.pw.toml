@@ -1,0 +1,13 @@
+name = "Dynamic Trees TFC"
+filename = "DynamicTreesTFC-1.21.1-3.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8u5EZQJb/versions/HArABhLK/DynamicTreesTFC-1.21.1-3.0.1.jar"
+hash-format = "sha512"
+hash = "74f6ad44abeb594880890bb4bf67f817f1e68d309c8e2a3433ee5caacb8623f933ca4b0c369c559c19acfb5b3e0a5341a7cecc823ddc5c0a31758291a6f5553d"
+
+[update]
+[update.modrinth]
+mod-id = "8u5EZQJb"
+version = "HArABhLK"

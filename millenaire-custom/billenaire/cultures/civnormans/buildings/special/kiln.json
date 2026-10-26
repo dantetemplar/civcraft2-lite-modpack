@@ -1,0 +1,37 @@
+{
+  "culture": "millenaire:civnormans",
+  "building_id": "kiln",
+  "category": "special",
+  "native_name": "Kiln",
+  "max_count": 1,
+
+  "tags": [
+    "kiln"
+  ],
+
+
+  "shop": "kiln",
+
+  "variants": [
+    {
+      "variant": "a",
+      "building_orientation": 1,
+
+      "tags": [
+        "kiln"
+      ],
+
+      "levels": [
+        {
+          "level": 0,
+          "footprint": {
+            "width": 9,
+            "height": 4,
+            "depth": 9
+          },
+          "ground_level": -3
+        }
+      ]
+    }
+  ]
+}

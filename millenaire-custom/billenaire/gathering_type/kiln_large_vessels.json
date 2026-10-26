@@ -1,0 +1,45 @@
+{
+  "handler": "crafting",
+  "priority": 50,
+  "priorityRandom": 10,
+  "scanRadius": 32,
+  "batchRadius": 8,
+  "maxActionsPerTask": 3,
+  "actionCooldown": 200,
+  "stuckTimeout": 4000,
+  "walkSpeed": 0.6,
+
+  "buildingLimit": {
+    "tfc:ceramic/large_vessel": 8
+  },
+
+  "maxSimultaneousInBuilding": 1,
+
+  "minimumHour": -1,
+  "maximumHour": 12500,
+
+  "handlerParams": {
+    "buildingTag": "kiln",
+  
+    "inputs": [
+      {
+        "item": "minecraft:clay_ball",
+        "count": 8
+      }
+    ],
+
+    "outputs": [
+      {
+        "item": "tfc:ceramic/large_vessel",
+        "count": 1
+      }
+    ]
+  },
+
+  "heldItems": [
+    "minecraft:clay_ball",
+    "tfc:ceramic/large_vessel"
+  ],
+
+  "sound": "stone"
+}

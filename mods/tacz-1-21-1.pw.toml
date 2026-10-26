@@ -1,0 +1,17 @@
+name = "[UNOFFICIAL] TaCZ NeoForge Port"
+filename = "tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OypNE65K/versions/wPvGWIj9/tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar"
+hash-format = "sha512"
+hash = "ce14e985ce16d0517e7b1d41969a244818f46c1e4ae93842c3149963990aa488692c5372ecc4b71fe560a99794a3f865244dbef5b182beec4411148b4f83c53c"
+
+[update]
+[update.modrinth]
+mod-id = "OypNE65K"
+version = "wPvGWIj9"
+
+[update.curseforge]
+file-id = 8547439
+project-id = 1353462

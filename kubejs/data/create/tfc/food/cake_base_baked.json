@@ -1,0 +1,9 @@
+{
+  "ingredient": {
+    "tag": "civcraft_fix2:optional/createaddition/cake_base_baked"
+  },
+  "hunger": 4,
+  "saturation": 1,
+  "decay_modifier": 1.25,
+  "grain": 2
+}

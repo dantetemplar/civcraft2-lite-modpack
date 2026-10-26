@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"tfc:mud/mollisol"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:animal_fat"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

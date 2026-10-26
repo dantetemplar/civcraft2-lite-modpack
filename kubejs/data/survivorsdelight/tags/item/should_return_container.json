@@ -1,0 +1,176 @@
+{
+  "replace": true,
+  "values": [
+    "farmersdelight:milk_bottle",
+    "farmersdelight:hot_cocoa",
+    "farmersdelight:apple_cider",
+    "farmersdelight:melon_juice",
+    "farmersdelight:tomato_sauce",
+    "farmersdelight:cake_slice",
+    "farmersdelight:apple_pie_slice",
+    "farmersdelight:sweet_berry_cheesecake_slice",
+    "farmersdelight:chocolate_pie_slice",
+    "farmersdelight:pumpkin_pie_slice",
+    "farmersdelight:melon_popsicle",
+    "farmersdelight:glow_berry_custard",
+    "farmersdelight:fruit_salad",
+    "farmersdelight:mixed_salad",
+    "farmersdelight:nether_salad",
+    "farmersdelight:cooked_rice",
+    "farmersdelight:bone_broth",
+    "farmersdelight:beef_stew",
+    "farmersdelight:chicken_soup",
+    "farmersdelight:vegetable_soup",
+    "farmersdelight:fish_stew",
+    "farmersdelight:fried_rice",
+    "farmersdelight:pumpkin_soup",
+    "farmersdelight:baked_cod_stew",
+    "farmersdelight:noodle_soup",
+    "farmersdelight:onion_soup",
+    "farmersdelight:bacon_and_eggs",
+    "farmersdelight:pasta_with_meatballs",
+    "farmersdelight:pasta_with_mutton_chop",
+    "farmersdelight:mushroom_rice",
+    "farmersdelight:roasted_mutton_chops",
+    "farmersdelight:vegetable_noodles",
+    "farmersdelight:steak_and_potatoes",
+    "farmersdelight:ratatouille",
+    "farmersdelight:squid_ink_pasta",
+    "farmersdelight:grilled_salmon",
+    "farmersdelight:roast_chicken",
+    "farmersdelight:stuffed_pumpkin",
+    "farmersdelight:honey_glazed_ham",
+    "farmersdelight:shepherds_pie",
+    "farmersdelight:gleaming_salad",
+    "farmersdelight:dog_food",
+    {
+      "id": "casualnessdelight:fish_and_chips",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:yorkshire_pudding",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:beef_noodles",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:phantom_dumplings",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:phantom_puff",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:quiche_lorraine_slice",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:stargazy_pie_slice",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:cheese_wheel_slice",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:spicy_strips",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:green_tongue",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:roast_gluten",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:raw_donkey_meat",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:cooked_donkey_meat",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:donkey_burger",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:bowl_of_paper_wrapped_fish",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:raw_potato_bobo_chicken",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:raw_cabbage_bobo_chicken",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:raw_chicken_bobo_chicken",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:potato_bobo_chicken",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:cabbage_bobo_chicken",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:chicken_bobo_chicken",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:potato_chip",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:spring_roll",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:fried_chicken_chip",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:fried_fish",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:tonkatsu",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:bowl_of_sweet_rice",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:capsicum",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:capsicum_sauce",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:fried_cake",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:fried_mushroom",
+      "required": false
+    },
+    {
+      "id": "casualnessdelight:fried_strange_mushroom",
+      "required": false
+    },
+    "survivorsdelight:salad_dressing"
+  ]
+}

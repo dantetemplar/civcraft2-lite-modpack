@@ -1,0 +1,49 @@
+{
+  "culture": "millenaire:civnormans",
+  "building_id": "well",
+  "category": "extra",
+  "native_name": "Well",
+  "converter_skip": true,
+  "priority_move_in": 10,
+  "tags": [
+    "pathnode",
+    "leisure"
+  ],
+  "icon": "minecraft:water_bucket",
+  "area_to_clear_length_before": 3,
+  "area_to_clear_length_after": 3,
+  "area_to_clear_width_before": 3,
+  "area_to_clear_width_after": 3,
+  "travel_book_category": "othervillage",
+  "variants": [
+    {
+      "variant": "a",
+      "building_orientation": 0,
+      "ground_level": -11,
+      "tags": [
+        "pathnode",
+        "leisure"
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "footprint": {
+            "width": 6,
+            "height": 16,
+            "depth": 6
+          },
+          "priority": 1000,
+          "ground_level": -11
+        },
+        {
+          "level": 1,
+          "footprint": {
+            "width": 6,
+            "height": 17,
+            "depth": 6
+          }
+        }
+      ]
+    }
+  ]
+}

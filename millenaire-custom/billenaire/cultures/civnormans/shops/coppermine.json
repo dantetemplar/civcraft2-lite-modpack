@@ -1,0 +1,11 @@
+{
+  "sells": [
+   "kiln_native_copper"
+  ],
+  "buys": [
+    "bread",
+    "cider"
+  ],
+  "buys_optional": [],
+  "deliver_to": []
+}

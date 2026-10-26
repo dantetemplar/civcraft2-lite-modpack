@@ -1,0 +1,17 @@
+name = "Horse Powered"
+filename = "horsepowered-2.6.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cZml36tg/versions/vaJR8tO9/horsepowered-2.6.0.jar"
+hash-format = "sha512"
+hash = "38f46c73f192365daab20d1f62412d6ba381e73d4aeec5781febb12dded4415c230f03787a4b93ecea3686efaeda0e8be81619d3d713b7f7fb14b436f82aab3c"
+
+[update]
+[update.modrinth]
+mod-id = "cZml36tg"
+version = "vaJR8tO9"
+
+[update.curseforge]
+file-id = 8127905
+project-id = 1408330

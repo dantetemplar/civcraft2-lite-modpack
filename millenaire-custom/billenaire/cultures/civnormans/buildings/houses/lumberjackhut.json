@@ -1,0 +1,70 @@
+{
+  "culture": "millenaire:civnormans",
+  "building_id": "lumberjackhut",
+  "native_name": "Lumberjacks Hut",
+  "converter_skip": true,
+  "max_count": 2,
+  "min_distance": 0.4,
+  "male": [
+    "lumberman"
+  ],
+  "female": [
+    "wife"
+  ],
+  "priority_move_in": 10,
+  "travel_book_category": "house",
+  "variants": [
+    {
+      "variant": "a",
+      "building_orientation": 3,
+      "ground_level": -1,
+      "tags": [
+        "nopaths"
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "footprint": {
+            "width": 12,
+            "height": 14,
+            "depth": 13
+          },
+          "priority": 1000,
+          "ground_level": -1
+        },
+        {
+          "level": 1,
+          "footprint": {
+            "width": 12,
+            "height": 6,
+            "depth": 13
+          }
+        },
+        {
+          "level": 2,
+          "footprint": {
+            "width": 12,
+            "height": 6,
+            "depth": 13
+          }
+        },
+        {
+          "level": 3,
+          "footprint": {
+            "width": 12,
+            "height": 10,
+            "depth": 13
+          }
+        },
+        {
+          "level": 4,
+          "footprint": {
+            "width": 12,
+            "height": 11,
+            "depth": 13
+          }
+        }
+      ]
+    }
+  ]
+}

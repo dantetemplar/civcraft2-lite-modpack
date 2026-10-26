@@ -1,0 +1,17 @@
+name = "ExtraQuests [FTB Quests]"
+filename = "ExtraQuests-1.7.0-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rMvP0ujv/versions/mz2cvsx6/ExtraQuests-1.7.0-1.21.1-NeoForge.jar"
+hash-format = "sha512"
+hash = "94103946cf8d81889434cc2274f26c19321cb6677cb6b60020b98a29a0d93bf9fdba00e2852a765d1b4034db4fdfcdbcc80acb87776b3e7c13e9663dbea97cd8"
+
+[update]
+[update.modrinth]
+mod-id = "rMvP0ujv"
+version = "mz2cvsx6"
+
+[update.curseforge]
+file-id = 8004488
+project-id = 964194

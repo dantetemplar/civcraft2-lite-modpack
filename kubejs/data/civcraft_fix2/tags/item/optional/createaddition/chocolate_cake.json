@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createaddition:chocolate_cake",
+      "required": false
+    }
+  ]
+}

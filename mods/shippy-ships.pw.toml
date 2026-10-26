@@ -1,0 +1,17 @@
+name = "Shippy Ships"
+filename = "shippy_ships-1.0.17.5-NEOFORGE-MC-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oxBNHOmi/versions/uIsbMHU6/shippy_ships-1.0.17.5-NEOFORGE-MC-1.21.1.jar"
+hash-format = "sha512"
+hash = "bf53c689d6cfa2aadf407ac61a9ee615a9d4c43aa9bb7b353a7817a352172753f19ced3a635f1ca55bef033642bc0f971aaecc744bb54fed6b016c2d37708173"
+
+[update]
+[update.modrinth]
+mod-id = "oxBNHOmi"
+version = "uIsbMHU6"
+
+[update.curseforge]
+file-id = 8591182
+project-id = 1551850

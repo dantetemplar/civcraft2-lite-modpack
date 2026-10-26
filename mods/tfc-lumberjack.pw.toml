@@ -1,0 +1,13 @@
+name = "TFC LumberJack"
+filename = "tfc-lumberjack-1.21.1-neoforge-1.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fb6f2eaf98f5c43b3b9933ccc64e2e303993e127"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7884016
+project-id = 1016624

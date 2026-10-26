@@ -1,0 +1,7 @@
+{
+  "ingredient": {
+    "tag": "civcraft_fix2:optional/createaddition/cake_base"
+  },
+  "hunger": 4,
+  "decay_modifier": 4.0
+}

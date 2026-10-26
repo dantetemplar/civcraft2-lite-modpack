@@ -1,0 +1,33 @@
+{
+  "culture": "millenaire:civnormans",
+  "building_id": "workshop",
+  "category": "special",
+  "native_name": "Workshop",
+  "max_count": 1,
+  "shop": "workshop",
+  "tags": [
+    "workshop"
+  ],
+  "variants": [
+    {
+      "variant": "a",
+      "building_orientation": 1,
+      "tags": [
+        "workshop"
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "footprint": {
+            "width": 17,
+            "height": 12,
+            "depth": 15
+          },
+          "priority": 800,
+          "priority_move_in": 15,
+          "ground_level": -6
+        }
+      ]
+    }
+  ]
+}

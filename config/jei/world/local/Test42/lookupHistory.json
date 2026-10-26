@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"kubejs:survival_village_charter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:vegetable_soup","components":{"tfc:food":{"creation_date":64800}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

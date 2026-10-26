@@ -1,0 +1,17 @@
+name = "Fungi Delight (Farmers Delight Addon)"
+filename = "FungiDelight-1.21.1-1.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fHzhaX3z/versions/oQ0fb2cX/FungiDelight-1.21.1-1.3.jar"
+hash-format = "sha512"
+hash = "f29830198fc93b9a6f45f52b0a8ad413d4dd2a96a4a064c57f2668137a539cd05cf238da4fa71d6b6968d4e5e07d0d4eb6652c215e2cfa68e56695f5baf677d2"
+
+[update]
+[update.modrinth]
+mod-id = "fHzhaX3z"
+version = "oQ0fb2cX"
+
+[update.curseforge]
+file-id = 7450829
+project-id = 1394406

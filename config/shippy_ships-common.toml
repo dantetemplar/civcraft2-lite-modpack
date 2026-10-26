@@ -1,0 +1,47 @@
+# Default: 10
+# Range: 0 ~ 100000000
+sailboat_step_1 = 10
+# Default: 64
+# Range: 0 ~ 100000000
+sailboat_step_2 = 64
+# Default: 64
+# Range: 0 ~ 100000000
+sailboat_step_3 = 64
+# Default: 20
+# Range: 0 ~ 100000000
+sailboat_step_4 = 20
+# Default: 25
+# Range: 0 ~ 100000000
+sailboat_step_5 = 25
+# Default: 64
+# Range: 0 ~ 100000000
+cog_step_1 = 64
+# Default: 300
+# Range: 0 ~ 100000000
+cog_step_2 = 300
+# Default: 200
+# Range: 0 ~ 100000000
+cog_step_3 = 200
+# Default: 60
+# Range: 0 ~ 100000000
+cog_step_4 = 60
+# Default: 70
+# Range: 0 ~ 100000000
+cog_step_5 = 70
+# Default: 160
+# Range: 0 ~ 100000000
+caravel_step_1 = 160
+# Default: 900
+# Range: 0 ~ 100000000
+caravel_step_2 = 900
+# Default: 450
+# Range: 0 ~ 100000000
+caravel_step_3 = 450
+# Default: 150
+# Range: 0 ~ 100000000
+caravel_step_4 = 150
+# Default: 140
+# Range: 0 ~ 100000000
+caravel_step_5 = 140
+enable_block_collisions = false
+enable_simplified_ship_management = false

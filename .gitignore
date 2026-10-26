@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.jar
+*.zip
+*.mrpack
+.build/
+.packwiz-cache/
+packwiz.json
+logs/

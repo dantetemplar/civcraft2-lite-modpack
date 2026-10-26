@@ -1,0 +1,29 @@
+{
+  "handler": "take_from_building",
+
+  "priority": 500,
+  "scanRadius": 64,
+  "batchRadius": 8,
+
+  "maxActionsPerTask": 1,
+  "actionCooldown": 20,
+  "stuckTimeout": 4000,
+
+  "walkSpeed": 0.6,
+
+  "maxSimultaneousInBuilding": 1,
+
+  "minimumHour": -1,
+  "maximumHour": 12500,
+
+  "handlerParams": {
+    "buildingTag": "grove",
+    "collectGood": "kubejs:protein_provisions",
+    "maxCollect": 2,
+    "minimumPickup": 2
+  },
+
+  "heldItems": [
+    "kubejs:protein_provisions"
+  ]
+}

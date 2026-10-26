@@ -1,0 +1,8 @@
+#Immersive Aircraft x Immersive Engineering Configuration
+[general]
+	#If true, solid fuels (such as coal and logs) are disabled in aircraft. Only IE barrels with biodiesel can be used as fuel.
+	disableSolidFuel = true
+	#Working ticks per 1 mb of liquid fuel consumed. A greater value means fuel can burn for longer time.
+	# Default: 20
+	# Range: > 1
+	biodieselBurnRate = 20

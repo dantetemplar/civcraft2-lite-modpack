@@ -1,0 +1,17 @@
+name = "KubeJS Actually Additions"
+filename = "kubejs_actuallyadditions-neoforge-1.21.1-0.3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9UjcQ49t/versions/qzz8Odsy/kubejs_actuallyadditions-neoforge-1.21.1-0.3.0.jar"
+hash-format = "sha512"
+hash = "034652bd13226f1bed96504172ecf2e5cf6642aacc19125d0485683ebc4fc3486aec5f6a510c079d3cd6f2d801c7b5cfb02d3e9b0f4862322b7aa0e384cc3a7e"
+
+[update]
+[update.modrinth]
+mod-id = "9UjcQ49t"
+version = "qzz8Odsy"
+
+[update.curseforge]
+file-id = 7159465
+project-id = 1126546

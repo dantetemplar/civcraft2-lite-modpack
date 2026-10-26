@@ -1,0 +1,471 @@
+[
+  {
+    "hut": "minecolonies:blockhuttownhall",
+    "name": "Town Hall",
+    "minCitizens": 0,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutbuilder",
+    "name": "Builder\u0027s Hut",
+    "minCitizens": 0,
+    "targetCount": 3,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhuttownhall",
+    "name": "Town Hall",
+    "minCitizens": 0,
+    "targetCount": 1,
+    "targetLevel": 1
+  },
+  {
+    "hut": "minecolonies:blockhuttavern",
+    "name": "Tavern",
+    "minCitizens": 0,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutcitizen",
+    "name": "Residence",
+    "minCitizens": 0,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutguardtower",
+    "name": "Guard Tower",
+    "minCitizens": 0,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutcitizen",
+    "name": "Residence",
+    "minCitizens": 4,
+    "targetCount": 2,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutfarmer",
+    "name": "Farm",
+    "minCitizens": 4,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutwarehouse",
+    "name": "Warehouse",
+    "minCitizens": 4,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutdeliveryman",
+    "name": "Courier\u0027s Hut",
+    "minCitizens": 5,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutcook",
+    "name": "Dining Hall",
+    "minCitizens": 5,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutuniversity",
+    "name": "University",
+    "minCitizens": 6,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutcitizen",
+    "name": "Residence",
+    "minCitizens": 6,
+    "targetCount": 3,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutlumberjack",
+    "name": "Lumberjack\u0027s Hut",
+    "minCitizens": 6,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutfisherman",
+    "name": "Fisher\u0027s Hut",
+    "minCitizens": 6,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutsawmill",
+    "name": "Sawmill",
+    "minCitizens": 7,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutbaker",
+    "name": "Bakery",
+    "minCitizens": 7,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutcitizen",
+    "name": "Residence",
+    "minCitizens": 8,
+    "targetCount": 4,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutminer",
+    "name": "Mine",
+    "minCitizens": 8,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutsmeltery",
+    "name": "Smeltery",
+    "minCitizens": 8,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutguardtower",
+    "name": "Guard Tower",
+    "minCitizens": 8,
+    "targetCount": 2,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutcitizen",
+    "name": "Residence",
+    "minCitizens": 9,
+    "targetCount": 5,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutstonemason",
+    "name": "Stonemason\u0027s Hut",
+    "minCitizens": 9,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutstonesmeltery",
+    "name": "Stone Smeltery",
+    "minCitizens": 9,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhuttownhall",
+    "name": "Town Hall",
+    "minCitizens": 10,
+    "targetCount": 1,
+    "targetLevel": 2
+  },
+  {
+    "hut": "minecolonies:blockhutcitizen",
+    "name": "Residence",
+    "minCitizens": 10,
+    "targetCount": 6,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutblacksmith",
+    "name": "Blacksmith\u0027s Hut",
+    "minCitizens": 10,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutbarracks",
+    "name": "Barracks",
+    "minCitizens": 10,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutcomposter",
+    "name": "Composter\u0027s Hut",
+    "minCitizens": 11,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutlibrary",
+    "name": "Library",
+    "minCitizens": 11,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutcitizen",
+    "name": "Residence",
+    "minCitizens": 12,
+    "targetCount": 7,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhuthospital",
+    "name": "Hospital",
+    "minCitizens": 12,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutschool",
+    "name": "School",
+    "minCitizens": 12,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutdeliveryman",
+    "name": "Courier\u0027s Hut",
+    "minCitizens": 12,
+    "targetCount": 2,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutguardtower",
+    "name": "Guard Tower",
+    "minCitizens": 12,
+    "targetCount": 3,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutcitizen",
+    "name": "Residence",
+    "minCitizens": 13,
+    "targetCount": 8,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutshepherd",
+    "name": "Shepherd\u0027s Hut",
+    "minCitizens": 13,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutcowboy",
+    "name": "Cowhand\u0027s Hut",
+    "minCitizens": 13,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutchickenherder",
+    "name": "Chicken Farmer\u0027s Hut",
+    "minCitizens": 13,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutswineherder",
+    "name": "Swineherd\u0027s Hut",
+    "minCitizens": 13,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutcitizen",
+    "name": "Residence",
+    "minCitizens": 14,
+    "targetCount": 9,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutkitchen",
+    "name": "Kitchen",
+    "minCitizens": 14,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutmechanic",
+    "name": "Mechanic\u0027s Hut",
+    "minCitizens": 14,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutfletcher",
+    "name": "Fletcher\u0027s Hut",
+    "minCitizens": 14,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutcitizen",
+    "name": "Residence",
+    "minCitizens": 15,
+    "targetCount": 10,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutglassblower",
+    "name": "Glassblower\u0027s Hut",
+    "minCitizens": 15,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutdyer",
+    "name": "Dyer\u0027s Hut",
+    "minCitizens": 15,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutsifter",
+    "name": "Sifter\u0027s Hut",
+    "minCitizens": 15,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutcrusher",
+    "name": "Crusher\u0027s Hut",
+    "minCitizens": 15,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutcitizen",
+    "name": "Residence",
+    "minCitizens": 16,
+    "targetCount": 11,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutplantation",
+    "name": "Plantation",
+    "minCitizens": 16,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutbeekeeper",
+    "name": "Apiary",
+    "minCitizens": 16,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutrabbithutch",
+    "name": "Rabbit Hutch",
+    "minCitizens": 16,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutflorist",
+    "name": "Flower Shop",
+    "minCitizens": 16,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutconcretemixer",
+    "name": "Concrete Mixer\u0027s Hut",
+    "minCitizens": 17,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhuttownhall",
+    "name": "Town Hall",
+    "minCitizens": 18,
+    "targetCount": 1,
+    "targetLevel": 3
+  },
+  {
+    "hut": "minecolonies:blockhutcitizen",
+    "name": "Residence",
+    "minCitizens": 18,
+    "targetCount": 12,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhuttownhall",
+    "name": "Town Hall",
+    "minCitizens": 20,
+    "targetCount": 1,
+    "targetLevel": 4
+  },
+  {
+    "hut": "minecolonies:blockhutcitizen",
+    "name": "Residence",
+    "minCitizens": 20,
+    "targetCount": 13,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutarchery",
+    "name": "Archery Range",
+    "minCitizens": 20,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutcombatacademy",
+    "name": "Combat Academy",
+    "minCitizens": 20,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutenchanter",
+    "name": "Enchanter\u0027s Tower",
+    "minCitizens": 20,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhuttownhall",
+    "name": "Town Hall",
+    "minCitizens": 22,
+    "targetCount": 1,
+    "targetLevel": 5
+  },
+  {
+    "hut": "minecolonies:blockhutcitizen",
+    "name": "Residence",
+    "minCitizens": 22,
+    "targetCount": 13,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutmysticalsite",
+    "name": "Mystical Site",
+    "minCitizens": 22,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutalchemist",
+    "name": "Alchemist Tower",
+    "minCitizens": 22,
+    "targetCount": 1,
+    "targetLevel": 0
+  },
+  {
+    "hut": "minecolonies:blockhutnetherworker",
+    "name": "Nether Mine",
+    "minCitizens": 22,
+    "targetCount": 1,
+    "targetLevel": 0
+  }
+]

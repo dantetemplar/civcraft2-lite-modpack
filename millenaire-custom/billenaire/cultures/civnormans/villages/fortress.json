@@ -1,0 +1,17 @@
+{
+  "culture": "millenaire:civnormans",
+  "name": "Fortress",
+  "weight": 0,
+  "lone_building": true,
+  "radius": 26,
+  "show_town_hall_signs": false,
+  "player_controlled": false,
+  "shop": "fortress",
+  "layout": [
+    {
+      "plan": "millenaire:civnormans/fortress",
+      "role": "centre"
+    }
+  ],
+  "allow_extra_buildings": false
+}

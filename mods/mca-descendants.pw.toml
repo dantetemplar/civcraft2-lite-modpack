@@ -1,0 +1,17 @@
+name = "MCA Descendants"
+filename = "mca_descendants-neoforge-1.2.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kD1J3BFy/versions/BYg1yNzc/mca_descendants-neoforge-1.2.3.jar"
+hash-format = "sha512"
+hash = "4de3b8cef3b7c6562493b6c546b2eacd2f99439c97ba009f1bce818e4e9c442c3b34b8001f38136549da910ca2e5bc5b48ee659eff5b9bf1dc8da0ab8c9cea37"
+
+[update]
+[update.modrinth]
+mod-id = "kD1J3BFy"
+version = "BYg1yNzc"
+
+[update.curseforge]
+file-id = 8367618
+project-id = 1510862

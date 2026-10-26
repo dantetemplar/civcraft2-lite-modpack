@@ -1,0 +1,21 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "#forge:mushrooms/inky_cap",
+      "required": false
+    },
+    {
+      "id": "#forge:mushrooms/morel",
+      "required": false
+    },
+    {
+      "id": "#forge:mushrooms/truffle",
+      "required": false
+    },
+    "farmersdelight:brown_mushroom_colony",
+    "farmersdelight:red_mushroom_colony",
+    "fungidelight:inky_cap_mushroom_colony",
+    "fungidelight:morel_mushroom_colony"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "culture": "millenaire:civnormans",
+  "name": "Norman Palace",
+  "weight": 0,
+  "player_controlled": true,
+    "path_materials": [
+    "pathdirt",
+    "pathgravel",
+    "pathslabs"
+  ],
+  "radius": 30,
+  "layout": [
+    { "plan": "millenaire:civnormans/normanpalace", "role": "centre" }
+  ]
+}

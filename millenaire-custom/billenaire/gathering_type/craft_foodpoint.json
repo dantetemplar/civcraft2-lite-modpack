@@ -1,0 +1,40 @@
+{
+  "handler": "crafting",
+  "priority": 85,
+  "scanRadius": 32,
+  "batchRadius": 8,
+  "maxActionsPerTask": 5,
+  "actionCooldown": 20,
+  "stuckTimeout": 4000,
+  "walkSpeed": 0.6,
+  "townhallLimit": {
+    "kubejs:food_point": 128
+  },
+  "minimumHour": -1,
+  "maximumHour": 16500,
+  "handlerParams": {
+    "inputs": [
+      {
+        "item": "kubejs:fruit_provisions",
+        "count": 2
+      },
+	  {
+        "item": "kubejs:protein_provisions",
+        "count": 2
+      },
+	  {
+        "item": "kubejs:grain_provisions",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "kubejs:food_point",
+        "count": 1
+      }
+    ]
+  },
+  "heldItems": [
+	"extradelight:wooden_spoon"
+  ]
+}

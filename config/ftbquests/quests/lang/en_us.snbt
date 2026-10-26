@@ -1,0 +1,104 @@
+{
+	chapter.0BEA0445B9359975.title: "Chapter 2: Iron Age"
+	chapter.39B980D01B01D65D.title: "Chapter 1: Bronze Age"
+	chapter.682F77009283396D.title: "Prologue: Stone Age"
+	quest.0433F83473C1CF8C.quest_subtitle: "All and all"
+	quest.09787C3505B487DD.title: "Kiln"
+	quest.0F51EFE74AEBE66A.quest_desc: ["In this pack, punching trees does NOT give you wood! You must knap your own tools from stone and give them wood stick handles. Do not even bother making a crafting table yet. Most stone age recipes require only the 2x2 anyways so don't worry. Remember, use JEI!"]
+	quest.0F51EFE74AEBE66A.quest_subtitle: "In the Beginning...."
+	quest.0F51EFE74AEBE66A.title: "Staring out...."
+	quest.1020804B34117078.quest_desc: ["Once you have procured a stone knife, you can begin cutting the brush and grass for plant fibers! Right click on the grass to cut some live fibers, left click on it to cut some dry fibers. Both have their uses. READ JEI!!"]
+	quest.1020804B34117078.quest_subtitle: "The last...."
+	quest.102F6E287B312719.quest_desc: ["Frames can be placed down and then shift right click with some lumber to board them up, this uses less wood than crafting them in a crafting table."]
+	quest.102F6E287B312719.title: "Timber Framing"
+	quest.1434B88D24B91F7C.quest_desc: ["Woodwork is hard work. You need to debark and then use a copper saw on the block in the world to saw it and cut it into shape. You can build various blocks for construction."]
+	quest.1434B88D24B91F7C.quest_subtitle: "Sharpen the saw...."
+	quest.18715D48FB9FA93B.quest_desc: ["Candles are a gentle way to light an area. They are needed for early research point generation. You need to buy vanilla candles rather than make TFC ones."]
+	quest.188D09310245F1B5.quest_desc: ["To make smooth stone, you need to use a pit kiln for it."]
+	quest.1A7750A339B3533C.quest_desc: [""]
+	quest.1A7750A339B3533C.title: "Orchard"
+	quest.1D3C5D35F57754A7.quest_desc: ["Use the TFC bloomery to smelt some Wrought Iron and kickstart the Iron Age!"]
+	quest.1D3C5D35F57754A7.title: "The Iron Age"
+	quest.1D51872E7EDB1FBB.quest_desc: ["Thatch needs to dry before you can sleep on it. Place the green plant fibers down and wait. You cannot make a house out of dirt or cobble stone without support. Many more blocks in the game have physics now!"]
+	quest.1FD57AF7EAF5969B.quest_desc: ["The spindle can be used to slowly craft plant fibers into vanilla string. Very useful."]
+	quest.1FD57AF7EAF5969B.quest_subtitle: "You spin me right around...."
+	quest.2295BD4874E044A5.quest_desc: ["The Stone Mason will allow better buildings and later quest giving aritsans to join the settlement."]
+	quest.2295BD4874E044A5.title: "Stonemason"
+	quest.2A112B6D3F0DF644.title: "Trading Post"
+	quest.2A9E6AB57188027D.quest_desc: ["You can craft Millenaire thatch at a crafting table from TFC thatch."]
+	quest.2F894DD3455FC7DB.quest_desc: ["Charcoal is made like a pit kiln. You dig a hole and place wood by shift right clicking the hole then light it and QUICKLY place gravel over on top of the flame, then wait."]
+	quest.304B49B8B08C4F0B.quest_desc: ["You will need canvas to craft many basic items. A drying rack is needed to dry the plant fiber fabric."]
+	quest.304B49B8B08C4F0B.quest_subtitle: "Stich in time"
+	quest.32CFD33A3939F7F7.quest_desc: ["The basket is good early storage once you acquire good cordage. They do not protect foods however from spoilage."]
+	quest.3465E3407DC827D5.quest_desc: ["You do not have to have a bucket to in order to start farming. Just hoe the land and plant the seeds and wait....."]
+	quest.34F00A8D51512F20.quest_desc: ["Vanilla mobs that are cared for by the villagers do not drop meat directly anymore. If YOU want to raise animals, you must use the TFC ones."]
+	quest.34F00A8D51512F20.title: "Pasture"
+	quest.35D34439204391ED.quest_desc: ["This is a repeatable quest in which you can build a copper mine. You can only place them on top of a natural copper deposit and not within a certain amount of distance between them."]
+	quest.35D34439204391ED.title: "CHARTER: Copper Mine"
+	quest.3632B2424F8FB6DD.quest_desc: ["The Carpenter provides a wide variety of woodcrafts for your settlement."]
+	quest.3632B2424F8FB6DD.title: "Carpenter"
+	quest.37805EA3FDCD434E.quest_desc: ["Food Bundles are a special resource exclusively for your future villagers. It is the only food they directly consume. It is made of one food item from each food group. (except dairy) You and villagers can craft food bundles to feed and increase the population of the settlement."]
+	quest.3CD221A1FE1B0953.quest_desc: ["The foragers hut will gather ratios of the four food groups. Try to balance the diet of the townsfolk by supplementing their diet."]
+	quest.3CD221A1FE1B0953.title: "Forager's Hut"
+	quest.3E845DEB76466538.quest_desc: ["Vanilla torches are harder to craft now however they stay lit indefinately."]
+	quest.3FA88DC5657ED2D3.quest_desc: ["Use these saplings to grow the vanilla woods needed to build the village buildings. Grow the settlement by providing food and later research. Also from now on most of the quest items must be submitted to continue now."]
+	quest.3FA88DC5657ED2D3.title: "Growing the Settlement"
+	quest.4273A09ACD552886.quest_desc: ["Congratulations on completing the prologue! You may now found a new settlement! Submit the materials and look for a FLAT SPACE to put the meeting hall hut."]
+	quest.4273A09ACD552886.quest_subtitle: "Where the heart is..."
+	quest.4273A09ACD552886.title: "Found your survival camp"
+	quest.42B602328067BAEF.quest_desc: ["Craft a TerraFirmaCraft workbench. In your inventory's 2x2 crafting grid, combine four lumber pieces of the same wood type to make one plank block. Then combine four matching plank blocks in a 2x2 square to make a workbench. Any TFC wood type counts. Keep the workbench in your inventory to complete this quest; if you already have one, move it to another inventory slot. Timber frames are covered by the next quest."]
+	quest.42B602328067BAEF.title: "Crafting Table"
+	quest.43D3FAEB02847ACD.title: "Workshop"
+	quest.49CB452BDF2B8F38.quest_desc: ["The settlement, once it has made a quarry, can aquire stone."]
+	quest.49CB452BDF2B8F38.title: "Quarry"
+	quest.4A528CDA6E47675A.quest_desc: ["Storage solutions are important. Do use the storage building to make drawers for resource organization."]
+	quest.4A528CDA6E47675A.title: "Storehouse"
+	quest.4B4A4F9B151B9330.quest_subtitle: "It is not for hanging on the wall!"
+	quest.4D24CAB30F2DE53E.quest_desc: ["Animals have skins, bones, meat, and organs you can use for crafting a variety of stuff. Hunt an animal."]
+	quest.4D24CAB30F2DE53E.quest_subtitle: "Chase two rabbits...."
+	quest.4DB2379C62D52428.quest_desc: ["Leather water flasks are a good way to store drinking water early. You can craft them with leather and an organ randomly dropped from animals."]
+	quest.4DB2379C62D52428.quest_subtitle: "Bring me wine...."
+	quest.4DB2379C62D52428.title: "Time in a bot- er flask."
+	quest.565A08CB3C543CC7.title: "Weaving anf Flax"
+	quest.5711190390E55513.quest_desc: ["You can create a firepit by pressing Q to drop two logs, three sticks and optionally up to three straw then shift hold right click with a firestarter kit to ignite it."]
+	quest.5711190390E55513.quest_subtitle: "Moths to a flame..."
+	quest.5CE8D8BEDFFE69BF.title: "Tavern"
+	quest.5FF374A3E7335E8F.quest_desc: ["They villagers will grow wheat and use it for thatch and food."]
+	quest.5FF374A3E7335E8F.title: "Grain Farm"
+	quest.6003B099530E837E.quest_desc: ["The settlement ledger is an item that can be used to link villages into districts to your palace district."]
+	quest.6003B099530E837E.title: "Palace District"
+	quest.606382EE5076E7DE.quest_desc: ["Back in the stone age before tannin, people would use the brains of the animal to tan the hide. This process is crude and primitive but it will get you leather early on."]
+	quest.606382EE5076E7DE.quest_subtitle: "Braaaiins"
+	quest.606382EE5076E7DE.title: "Primitive Tanning"
+	quest.61D2454A80318EA3.title: "Herbalist"
+	quest.643DC1EE431B3CBA.quest_desc: ["There are all sorts of plants to eat. harvest one. Remember, if you are stuck or want to know more about what to use something for or how to make it, Press U or R on the item in the inventory respectively."]
+	quest.643DC1EE431B3CBA.quest_subtitle: "A time of sowing...."
+	quest.676069078BAB4DDA.quest_desc: ["Please look for a place to found your village. MAKE SURE YOU HAVE PLENTY OF CLEAR SPACE FOR THE CAMP!"]
+	quest.676069078BAB4DDA.quest_subtitle: "Get to it...."
+	quest.68049801C32E117C.quest_desc: ["This modpack features a skippable prologue in the Stone Age, although you can skip it, I highly reccommend you don't. The reward for completing the stone age is a bonus reward of resources, extra villagers, and more starting buildings. So, do you want to skip it?"]
+	quest.68049801C32E117C.quest_subtitle: "Time to choose....."
+	quest.68049801C32E117C.title: "Skip the Prologue?"
+	quest.68F20C026C690BF9.quest_desc: ["The Chapel is the first of many buildings to produce RESEARCH POINTS. Research Points are generated at the chapel for candles and food, and later paper. The points are used to unlock new technologies to advance forward."]
+	quest.68F20C026C690BF9.title: "Chapel"
+	quest.6BC749FF5B69B849.quest_desc: ["Building buildings on frames is hard when you can't stand on them. Build scaffolds to cimb and help you up the walls."]
+	quest.6BC749FF5B69B849.quest_subtitle: "Support...."
+	quest.6D868BF6342654D8.title: "Garden"
+	quest.6DC37D9F62F817B8.quest_desc: ["Glue can be obtained in the stone age by boiling and melting hides in water in a pot."]
+	quest.6DC37D9F62F817B8.quest_subtitle: "Couldn't put it down....."
+	quest.70B2E15658CF50FD.quest_desc: ["The vanilla woods are separate from the TerraFirmaCraft woods. The villagers will mostly use the \"vanilla\" woods for their buildings."]
+	quest.70B2E15658CF50FD.quest_subtitle: "Sawin' logs"
+	quest.70B2E15658CF50FD.title: "Logging Camp"
+	quest.751FAA8295010A00.quest_desc: ["Clay can be used in a pit kiln to make ceramic goods. The small clay vessel will be needed to melt copper later."]
+	quest.751FAA8295010A00.quest_subtitle: "Vessel unto honor...."
+	quest.796725D955488B18.quest_subtitle: "Makes them ring....."
+	quest.7C526B4B998A48FE.title: "Charcoal Mound"
+	quest.7EEF0B2971C22D80.quest_desc: ["Welcome to CivCraft governor! In this modpack, you will embark on a journey through the ages of Civilization building up towns with resource gathering semi autonomy! Follow these quests to get started and remember: Press \"R\" on an item to see what you need to make it. Press \"U\" on an item to see what you CAN MAKE with it."]
+	quest.7EEF0B2971C22D80.quest_subtitle: "Test of Time"
+	quest.7EEF0B2971C22D80.title: "Welcome to CivCraft!"
+	quest.7FD5B7E29422B13A.quest_desc: ["Clay can be found almost anywhere, but you need to find a rich deposit of it when just starting out. Any dirt block can hold clay and you can see it on the side. Clay is useful for all sort of appilcations."]
+	quest.7FD5B7E29422B13A.quest_subtitle: "Molded for the kiln"
+	task.2D2921C4BB5C8E00.title: "Yes, Please skip it!"
+	task.439F4AB00E7DAA9B.title: "Gatherer"
+	task.4B8F544A40A708BF.title: "Place your camp."
+	task.5B946614E6E8078B.title: "Hunting"
+}

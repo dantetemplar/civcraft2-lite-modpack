@@ -1,0 +1,40 @@
+#Heat delivered by Create Blaze Burner (per heat level step).
+[blaze_burner]
+	#Temperature provided at Smouldering level. Default: 80C (Hot).
+	# Default: 80.0
+	# Range: 0.0 ~ 10000.0
+	smoulderingHeat = 80.0
+	#Temperature provided at Fading level. Default: 1100C (Yellow).
+	# Default: 1100.0
+	# Range: 0.0 ~ 10000.0
+	fadingHeat = 1100.0
+	#Temperature provided at Kindled level. Default: 1300C (Yellow White).
+	# Default: 1300.0
+	# Range: 0.0 ~ 10000.0
+	kindledHeat = 1300.0
+	#Temperature provided at Seething level. Default: 1800C (Brilliant White).
+	# Default: 1800.0
+	# Range: 0.0 ~ 10000.0
+	seethingHeat = 1800.0
+
+#Air delivered by Create Encased Fan when blowing horizontally.
+[encased_fan]
+	#Base air amount. Default: 100.
+	# Default: 100.0
+	# Range: 0.0 ~ 10000.0
+	baseAir = 100.0
+	#Multiplier applied to absolute fan speed before adding to baseAir. Default: 1.0.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	speedMultiplier = 1.0
+
+#Create and TFC mechanical power conversion.
+[mechanical_converters]
+	#Create stress impact of the Create-to-TFC converter. Default: 64 SU.
+	# Default: 64.0
+	# Range: 0.0 ~ 16384.0
+	createToTfcStressImpact = 64.0
+	#Create stress capacity supplied by the TFC-to-Create converter. Default: 64 SU.
+	# Default: 64.0
+	# Range: 0.0 ~ 16384.0
+	tfcToCreateStressCapacity = 64.0

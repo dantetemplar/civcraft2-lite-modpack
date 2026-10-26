@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "c:eggs/boiled"
+    },
+    {
+      "tag": "c:eggs/boiled"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "extradelight:mayo_fluid"
+    }
+  ],
+  "results": [
+    {
+      "id": "extradelight:egg_salad"
+    }
+  ]
+}

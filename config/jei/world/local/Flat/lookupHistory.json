@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"mca:villager_editor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:light_blue_carpet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mca:male_villager_spawn_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"easy_npc:easy_npc_preset_empty"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

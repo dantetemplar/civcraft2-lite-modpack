@@ -1,0 +1,28 @@
+{
+  "culture": "millenaire:civnormans",
+  "building_id": "kitchen",
+  "category": "special",
+  "native_name": "Kitchen",
+  "shop": "kitchen",
+    "tags": [
+    "kitchen"
+  ],
+  "variants": [
+    {
+      "variant": "a",
+      "building_orientation": 1,
+      "levels": [
+        {
+          "level": 0,
+          "footprint": {
+            "width": 17,
+            "height": 6,
+            "depth": 15
+          },
+          "ground_level": -1,
+		  "priority": 700
+        }
+      ]
+    }
+  ]
+}

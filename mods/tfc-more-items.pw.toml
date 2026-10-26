@@ -1,0 +1,17 @@
+name = "TFC More Items"
+filename = "TFC-items-1.21.1-neoforge-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YQibRpfp/versions/FfLf18uj/TFC-items-1.21.1-neoforge-1.2.1.jar"
+hash-format = "sha512"
+hash = "86d2e46ba1b43528233758794d93f6011f6752b4ea6ed47b10c2eac0e9adefa235aa4d41a9ff7dc056c72d2c491186cb60de3e30955fb265d7b284ce14229562"
+
+[update]
+[update.modrinth]
+mod-id = "YQibRpfp"
+version = "FfLf18uj"
+
+[update.curseforge]
+file-id = 7161406
+project-id = 1189837

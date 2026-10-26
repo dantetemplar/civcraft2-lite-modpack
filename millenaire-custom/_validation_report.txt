@@ -1,0 +1,38 @@
+=== Millénaire Custom Content Report ===
+Generated: 2026-08-17 04:05:52
+Mod version: millenaire 9.0.0-beta.2
+
+=== Culture: civnormans (custom) ===
+  Source: external JSON
+  sub-mods: billenaire
+  building_plan    73 file(s) on disk
+  shops            25 file(s) on disk
+  village_type     8 file(s) on disk
+  villager_type    66 file(s) on disk
+  culture.json     present
+  traded_goods     present (additive merge)
+  namelists        26 file(s) (additive append)
+
+=== Global ===
+  gathering_type   36 custom file(s)
+  quests           0 custom file(s)
+  language overlays 339 custom file(s) across all locales
+
+=== Missing content (custom cultures) ===
+These classpath files were consulted during load but were absent
+from both the mod JAR and every sub-mod overlay. For custom (non-
+built-in) cultures this is expected when the pack does not provide
+the corresponding resource — the loader falls back or skips the
+entry silently. Listed here so pack authors can spot unintended
+omissions without grep-ing the server log.
+
+  civnormans:
+    - /millenaire/cultures/civnormans/culture_reputation.json
+    - /millenaire/cultures/civnormans/reputation.json
+
+=== Summary ===
+Cultures: 1 custom, 0 built-in with overrides, 8 total loaded
+Registries after load: 2056 building plans, 351 villager types, 134 village types
+
+For detailed errors and warnings during loading, see logs/latest.log
+(search for 'Error', 'WARN CultureLoader', 'WARN BuildingPlanSet').

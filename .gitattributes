@@ -1,0 +1,2 @@
+# Packwiz hashes cover exact bytes; preserve upstream CRLF and binary data.
+* -text

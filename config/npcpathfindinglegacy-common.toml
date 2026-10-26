@@ -1,0 +1,28 @@
+#Master switch. Per-NPC enhanced mode still defaults to disabled.
+enabled = true
+#Never query blocks in unloaded chunks while calculating a path.
+preventChunkLoads = true
+#Reuse a moving target path for this many ticks when the target barely moved.
+# Default: 8
+# Range: 1 ~ 40
+pathReuseTicks = 8
+#Server-wide enhanced A* calculations allowed per server tick.
+# Default: 3
+# Range: 1 ~ 32
+maxEnhancedSearchesPerTick = 3
+#Maximum nodes visited by one enhanced A* calculation.
+# Default: 1800
+# Range: 200 ~ 10000
+maxSearchNodes = 1800
+#Maximum downward transition considered by enhanced pathfinding.
+# Default: 8
+# Range: 1 ~ 24
+maxDropHeight = 8
+#Ticks without meaningful movement before a local detour and repath.
+# Default: 24
+# Range: 10 ~ 100
+stuckTicks = 24
+#Registry names that enhanced pathfinding must never enter or stand on.
+blockBlacklist = []
+#Registry names treated as body-passable by enhanced pathfinding.
+blockWhitelist = ["minecraft:ladder", "minecraft:vine"]

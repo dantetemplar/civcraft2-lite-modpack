@@ -1,0 +1,38 @@
+#Port the dashboard web server listens on.
+# Default: 8723
+# Range: 1 ~ 65535
+httpPort = 8723
+#Address the web server binds to. Use 0.0.0.0 to expose it on the network, or 127.0.0.1 for local only.
+bindAddress = "0.0.0.0"
+#How often (in seconds) the server re-scans colony data and pushes SSE updates to connected browsers.
+# Default: 3
+# Range: 1 ~ 3600
+refreshIntervalSeconds = 3
+#When true the server downloads the vanilla client jar (matching this Minecraft version) on first
+#start and caches its textures so vanilla item/block icons can be shown on the dashboard.
+#A dedicated server has no client textures of its own, so this is required for vanilla icons.
+autoDownloadVanillaAssets = true
+#Show the colony map tab on the dashboard.
+#The map is drawn from chunks the server already has loaded, a few at a time, and only
+#while somebody actually has the map open — so it costs nothing when nobody is looking.
+mapEnabled = true
+#How far from the colony centre the map reaches, in blocks.
+#The image is one pixel per block, so 256 means at most a 512x512 map per colony.
+# Default: 256
+# Range: 64 ~ 512
+mapRadius = 256
+#Host name shown in the /colonyweb command link. Leave blank to use the server's detected address.
+publicHost = ""
+#Require players to sign in before they can see any colony data.
+#Players run /colonyweb sync in-game to get a pairing code, then enter it on the dashboard.
+#Each player only sees the colonies they belong to (plus anything an operator granted).
+#Turning this OFF makes the dashboard fully public to anyone who can reach the port.
+authEnabled = true
+#How many days a browser stays signed in after entering a pairing code.
+# Default: 30
+# Range: 1 ~ 365
+sessionDays = 30
+#How long a pairing code from /colonyweb sync stays valid, in minutes.
+# Default: 10
+# Range: 1 ~ 1440
+loginCodeMinutes = 10

@@ -1,0 +1,13 @@
+name = "Spindles TFC"
+filename = "tfc_spindles-1.21.1-neoforge-1.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ae85192829486d66d8ca970a145bb6541f96e844"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7729016
+project-id = 1258816

@@ -1,0 +1,4 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"tfc:food/rabbit","components":{"tfc:heat":{},"tfc:food":{"creation_date":43200}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

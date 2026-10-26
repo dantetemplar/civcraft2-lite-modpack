@@ -1,0 +1,13 @@
+name = "Survivor's Abilities"
+filename = "survivorsabilities-1.5.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e1bb3860c2e1425ffb3ad59a4a8b6180a5b4d058"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8577849
+project-id = 1354890

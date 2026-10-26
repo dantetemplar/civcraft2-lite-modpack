@@ -1,0 +1,13 @@
+name = "Survivor's Delight [Farmer's Delight Compat with Terrafirmacraft (TFC)]"
+filename = "survivorsdelight-3.3.3-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "803f6a5e2ec95c9c884041559847143105c55b39"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8568157
+project-id = 1332913

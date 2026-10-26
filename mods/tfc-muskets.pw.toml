@@ -1,0 +1,17 @@
+name = "TFC Black Powder Weapons"
+filename = "tfc_muskets-1.21.1-neoforge-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ydtfCbHK/versions/cNF2xWOT/tfc_muskets-1.21.1-neoforge-1.0.3.jar"
+hash-format = "sha512"
+hash = "1e2cc9fb5ee54cd4c9d752b5acb3f656da9d6abea9b28cfcea6e65e8002d15a7175b0826beb37b23adcdcd6f40713a6b5809487e939d3ac2738cd8e10f47fdee"
+
+[update]
+[update.modrinth]
+mod-id = "ydtfCbHK"
+version = "cNF2xWOT"
+
+[update.curseforge]
+file-id = 7121892
+project-id = 1190245
