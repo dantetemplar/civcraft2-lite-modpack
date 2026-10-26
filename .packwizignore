@@ -8,6 +8,7 @@ __pycache__
 .nojekyll
 scripts
 /README.md
+/resume
 *.zip
 *.mrpack
 *.jar
