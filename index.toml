@@ -21232,6 +21232,11 @@ hash = "e717bb275a54a5caadaa7cf82bc34df3589f49402074adf93c31eaac43860313"
 metafile = true
 
 [[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "a766a810dc850260fd877ac78f4c9302b342561bb528cd619e6de81806dc99f2"
+metafile = true
+
+[[files]]
 file = "mods/fungi-delight.pw.toml"
 hash = "7f5a6683caa60fdedf0367edc43420a1b1232180c49d5cf6adb90fdd95475778"
 metafile = true
