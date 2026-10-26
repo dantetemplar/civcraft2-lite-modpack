@@ -2,9 +2,17 @@
 	chapter.0BEA0445B9359975.title: "Chapter 2: Iron Age"
 	chapter.39B980D01B01D65D.title: "Chapter 1: Bronze Age"
 	chapter.682F77009283396D.title: "Prologue: Stone Age"
+	quest.0433F83473C1CF8C.quest_desc: [
+		"Mud bricks start with dirt and water. Fill a TFC barrel with fresh water, then put TFC dirt in its item slot: each dirt block uses 250 mB of water to make mud. Before you have a barrel, use a water-filled jug on a placed TFC dirt block instead."
+		"Craft mud with straw to make wet mud bricks. Place them on the ground somewhere dry and keep them out of the rain for one in-game day. Collect the dried bricks and craft four of the same type in a 2x2 square into a TFC mud brick block."
+		"Finally, put that block in the crafting grid by itself to convert it into a Millenaire Mud Brick. This quest needs the Millenaire item, not loose TFC bricks or the TFC block."
+		'{"text":"Field Guide: Building Materials (Mud Bricks)","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/building_materials"}}'
+	]
 	quest.0433F83473C1CF8C.quest_subtitle: "All and all"
 	quest.09787C3505B487DD.quest_desc: [
-		'{"text":"Field Guide: Kilns","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:crafting/kilns"}}'
+		"This quest checks for a TFC Fire Bricks block, not a kiln structure. Knap Fire Clay into Unfired Fire Bricks, fire them, then craft the fired bricks with Mortar into the block shown in JEI."
+		"The settlement's Kiln is a Millenaire building. It is separate from both a pit kiln and the TFC Firebox-and-Grate kiln; the guide link explains fire clay and fire bricks, not the village building."
+		'{"text":"Field Guide: Fire Clay","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:metalworking/fire_clay"}}'
 	]
 	quest.09787C3505B487DD.title: "Kiln"
 	quest.0F51EFE74AEBE66A.quest_desc: [
@@ -19,6 +27,7 @@
 	quest.102F6E287B312719.title: "Timber Framing"
 	quest.1434B88D24B91F7C.quest_desc: [
 		"Woodwork is hard work. You need to debark and then use a copper saw on the block in the world to saw it and cut it into shape. You can build various blocks for construction."
+		"Cast a Copper Saw Blade in a fired clay mold, let it cool, then craft the blade with a stick. The guide covers casting. For lumber in this pack, saw a placed stripped log into supports, then place a support and saw it again; repeat the interactions as needed."
 		'{"text":"Field Guide: Pottery (Saw Blade Mold)","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/pottery"}}'
 		'{"text":"Field Guide: Ores, Metal, and Casting","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/finding_ores"}}'
 	]
@@ -26,45 +35,57 @@
 	quest.18715D48FB9FA93B.quest_desc: ["Candles are a gentle way to light an area. They are needed for early research point generation. You need to buy vanilla candles rather than make TFC ones."]
 	quest.188D09310245F1B5.quest_desc: [
 		"To make smooth stone, you need to use a pit kiln for it."
-		'{"text":"Field Guide: Pit Kilns","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/pit_kiln"}}'
+		"Here the required item is vanilla Stone. Craft four TFC cobblestone blocks in a 2x2 square into vanilla Cobblestone, then heat that Cobblestone in a pit kiln. TFC raw rock and Minecraft Smooth Stone are different items."
+		'{"text":"Field Guide: Pit Kilns (Heating Method)","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/pit_kiln"}}'
 	]
-	quest.1A7750A339B3533C.quest_desc: [""]
+	quest.1A7750A339B3533C.quest_desc: [
+		"For the Orchard quest, obtain one fresh vanilla Apple. Grow the vanilla Oak saplings from Growing the Settlement and collect apples from their leaves. TFC fruit is useful food, but does not replace the vanilla Apple required here."
+	]
 	quest.1A7750A339B3533C.title: "Orchard"
 	quest.1D3C5D35F57754A7.quest_desc: [
 		"Use the TFC bloomery to smelt some Wrought Iron and kickstart the Iron Age!"
+		"Smelt iron ore with charcoal in a bloomery, mine out the Raw Iron Bloom, then work it on an anvil into a Refined Iron Bloom and finally a Wrought Iron Ingot. Melting iron produces Cast Iron instead, which does not complete this quest."
 		'{"text":"Field Guide: Bloomery","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:metalworking/bloomery"}}'
+		'{"text":"Field Guide: Anvils","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:metalworking/anvils"}}'
 	]
 	quest.1D3C5D35F57754A7.title: "The Iron Age"
 	quest.1D51872E7EDB1FBB.quest_desc: [
-		"Thatch needs to dry before you can sleep on it. Place the green plant fibers down and wait. You cannot make a house out of dirt or cobble stone without support. Many more blocks in the game have physics now!"
-		'{"text":"Field Guide: A Place to Sleep","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/a_place_to_sleep"}}'
+		"Craft four Plant Fibers into a Plant Fiber Block; this quest needs 15 of those blocks. Dry them on an Extra Delight Drying Rack to make TFC Thatch for later building recipes."
+		"You cannot make a house out of dirt or cobble stone without support. Many more blocks in the game have physics now!"
 		'{"text":"Field Guide: Support Beams & Collapses","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:core_mechanics/support_beams"}}'
 	]
 	quest.1FD57AF7EAF5969B.quest_desc: [
 		"The spindle can be used to slowly craft plant fibers into vanilla string. Very useful."
-		'{"text":"Field Guide: Weaving","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:crafting/weaving"}}'
+		"Knap a Spindle Head from clay, fire it in a pit kiln, then combine the fired head diagonally with a stick to make a Ceramic Spindle. The guide covers the head; our Plant String-to-String recipe is shown in JEI."
+		'{"text":"Field Guide: Weaving (Spindle Head)","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:crafting/weaving"}}'
 	]
 	quest.1FD57AF7EAF5969B.quest_subtitle: "You spin me right around...."
 	quest.2295BD4874E044A5.quest_desc: ["The Stone Mason will allow better buildings and later quest giving aritsans to join the settlement."]
 	quest.2295BD4874E044A5.title: "Stonemason"
+	quest.2A112B6D3F0DF644.quest_desc: [
+		"For the Trading Post quest, craft a Handcrafted Oak Desk from three vanilla Oak Slabs, two vanilla Oak Planks, and a chest accepted by JEI. Use the vanilla woods grown from your settlement saplings; a desk of another wood does not count."
+	]
 	quest.2A112B6D3F0DF644.title: "Trading Post"
 	quest.2A9E6AB57188027D.quest_desc: ["You can craft Millenaire thatch at a crafting table from TFC thatch."]
 	quest.2F894DD3455FC7DB.quest_desc: [
 		"Charcoal is made like a pit kiln. You dig a hole and place wood by shift right clicking the hole then light it and QUICKLY place gravel over on top of the flame, then wait."
+		"Use TFC log piles surrounded by solid, non-flammable blocks, not a ceramic pit kiln. Once the pit stops smoking, dig out the charcoal with a shovel."
 		'{"text":"Field Guide: Charcoal Pit","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:metalworking/charcoal_pit"}}'
 	]
 	quest.304B49B8B08C4F0B.quest_desc: [
 		"You will need canvas to craft many basic items. A drying rack is needed to dry the plant fiber fabric."
-		'{"text":"Field Guide: Weaving","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:crafting/weaving"}}'
+		"Craft four Plant String into Plant Fabric, or arrange four Farmer's Delight Straw in a 2x2 square. The Plant Fabric completes this quest; dry it on an Extra Delight Drying Rack to make Canvas. This is not the TFC loom recipe."
 	]
 	quest.304B49B8B08C4F0B.quest_subtitle: "Stich in time"
 	quest.32CFD33A3939F7F7.quest_desc: [
 		"The basket is good early storage once you acquire good cordage. They do not protect foods however from spoilage."
-		'{"text":"Field Guide: Storage","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:core_mechanics/storage"}}'
+		"Craft two sticks and two Canvas diagonally in the 2x2 grid to make the Farmer's Delight Wooden Basket required here. The TFC basket is a different item."
 	]
 	quest.3465E3407DC827D5.quest_desc: [
 		"You do not have to have a bucket to in order to start farming. Just hoe the land and plant the seeds and wait....."
+		"This quest needs 15 Wheat Grain, not harvested wheat or seeds. Harvest TFC wheat, then craft it with a knife to separate the grain from the straw. Keep the grain fresh. Stone hoes use a head, stick, String, and Leather Strap in this pack; check JEI for the layout."
 		'{"text":"Field Guide: Crops","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:food/crops"}}'
+		'{"text":"Field Guide: Bread (Processing Grain)","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:food/bread"}}'
 	]
 	quest.34F00A8D51512F20.quest_desc: [
 		"Vanilla mobs that are cared for by the villagers do not drop meat directly anymore. If YOU want to raise animals, you must use the TFC ones."
@@ -72,34 +93,55 @@
 	]
 	quest.34F00A8D51512F20.title: "Pasture"
 	quest.35D34439204391ED.quest_desc: [
-		"This is a repeatable quest in which you can build a copper mine. You can only place them on top of a natural copper deposit and not within a certain amount of distance between them."
+		"Use the Copper Mine Charter to found a mine above a natural copper deposit. Stand in a chunk containing at least 12 copper ore blocks and at least 100 blocks from other villages or registered lone buildings, then right-click the charter. An unsuitable site will not consume it."
+		"This quest checks for 6 Food Bundles and 2 Gold Deniers in your inventory. It is not configured as repeatable."
 		'{"text":"Field Guide: Prospecting","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:metalworking/prospecting"}}'
 	]
 	quest.35D34439204391ED.title: "CHARTER: Copper Mine"
-	quest.3632B2424F8FB6DD.quest_desc: ["The Carpenter provides a wide variety of woodcrafts for your settlement."]
+	quest.3632B2424F8FB6DD.quest_desc: [
+		"The Carpenter provides a wide variety of woodcrafts for your settlement."
+		"This quest uses a manual checkmark. Mark it complete after reading; there is no item to submit and it does not detect or construct the Carpenter building."
+	]
 	quest.3632B2424F8FB6DD.title: "Carpenter"
-	quest.37805EA3FDCD434E.quest_desc: ["Food Bundles are a special resource exclusively for your future villagers. It is the only food they directly consume. It is made of one food item from each food group. (except dairy) You and villagers can craft food bundles to feed and increase the population of the settlement."]
+	quest.37805EA3FDCD434E.quest_desc: [
+		"Food Bundles are a special resource exclusively for your future villagers. It is the only food they directly consume. It is made of one food item from each food group. (except dairy) You and villagers can craft food bundles to feed and increase the population of the settlement."
+		"Combine one grain food, one vegetable, one fruit, and one cooked meat in the crafting grid. Raw meat does not count for this recipe."
+	]
 	quest.3CD221A1FE1B0953.quest_desc: ["The foragers hut will gather ratios of the four food groups. Try to balance the diet of the townsfolk by supplementing their diet."]
 	quest.3CD221A1FE1B0953.title: "Forager's Hut"
 	quest.3E845DEB76466538.quest_desc: [
 		"Vanilla torches are harder to craft now however they stay lit indefinately."
-		'{"text":"Field Guide: Light Sources","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:core_mechanics/lighting"}}'
+		"This quest needs a vanilla torch, not a TFC torch. Grind charcoal into powder with the mortar and pestle, then craft it with glue and a stick bunch. Four sticks in a 2x2 square make the stick bunch; use JEI for the torch layout."
 	]
-	quest.3FA88DC5657ED2D3.quest_desc: ["Use these saplings to grow the vanilla woods needed to build the village buildings. Grow the settlement by providing food and later research. Also from now on most of the quest items must be submitted to continue now."]
+	quest.3FA88DC5657ED2D3.quest_desc: [
+		"Use these saplings to grow the vanilla woods needed to build the village buildings. Grow the settlement by providing food and later research."
+		"Submit one Food Bundle to claim the saplings. Most later item quests only check what you are carrying; only tasks marked for submission consume items. A building name in the quest title does not mean the quest builds it for you."
+	]
 	quest.3FA88DC5657ED2D3.title: "Growing the Settlement"
-	quest.4273A09ACD552886.quest_desc: ["Congratulations on completing the prologue! You may now found a new settlement! Submit the materials and look for a FLAT SPACE to put the meeting hall hut."]
+	quest.4273A09ACD552886.quest_desc: [
+		"Congratulations on completing the prologue! You may now found a new settlement! Submit the materials and look for a FLAT SPACE to put the meeting hall hut."
+		"Bring 64 Millenaire Mud Bricks, 64 vanilla Cobblestone, 128 Millenaire Thatch, and 6 Food Bundles. Use the Mud Brick and Thatch quests for the TFC-to-Millenaire conversions. Claim the Survival Village Charter, stand on clear ground, and right-click it to found the settlement."
+	]
 	quest.4273A09ACD552886.quest_subtitle: "Where the heart is..."
 	quest.4273A09ACD552886.title: "Found your survival camp"
 	quest.42B602328067BAEF.quest_desc: [
 		"Craft a TerraFirmaCraft workbench from planks. Any TFC wood type will do. Remember, use JEI!"
-		'{"text":"Field Guide: Building Materials","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/building_materials"}}'
 	]
 	quest.42B602328067BAEF.title: "Crafting Table"
+	quest.43D3FAEB02847ACD.quest_desc: [
+		"The Workshop supports the settlement's early crafts. For this quest, obtain a Farmer's Delight Bamboo Basket: craft it from four Bamboo and three Canvas, following JEI. The earlier Wooden Basket and the TFC basket do not count."
+	]
 	quest.43D3FAEB02847ACD.title: "Workshop"
 	quest.49CB452BDF2B8F38.quest_desc: ["The settlement, once it has made a quarry, can aquire stone."]
 	quest.49CB452BDF2B8F38.title: "Quarry"
-	quest.4A528CDA6E47675A.quest_desc: ["Storage solutions are important. Do use the storage building to make drawers for resource organization."]
+	quest.4A528CDA6E47675A.quest_desc: [
+		"Storage solutions are important. Do use the storage building to make drawers for resource organization."
+		"This task specifically checks for a vanilla Chest; TFC chests do not count. The ordinary vanilla Chest crafting recipe is disabled by TFC. Do not spend lumber on a TFC chest expecting it to complete this task; the required Chest must be obtained another way."
+	]
 	quest.4A528CDA6E47675A.title: "Storehouse"
+	quest.4B4A4F9B151B9330.quest_desc: [
+		"Craft an Extra Delight Drying Rack from two sticks and two String, arranged diagonally in the 2x2 grid. Leather Straps can replace the String. Place the rack and use it to dry Plant Fabric into Canvas or Plant Fiber Blocks into TFC Thatch."
+	]
 	quest.4B4A4F9B151B9330.quest_subtitle: "It is not for hanging on the wall!"
 	quest.4D24CAB30F2DE53E.quest_desc: [
 		"Animals have skins, bones, meat, and organs you can use for crafting a variety of stuff. Hunt an animal."
@@ -108,19 +150,28 @@
 	quest.4D24CAB30F2DE53E.quest_subtitle: "Chase two rabbits...."
 	quest.4DB2379C62D52428.quest_desc: [
 		"Leather water flasks are a good way to store drinking water early. You can craft them with leather and an organ randomly dropped from animals."
-		'{"text":"Field Guide: Keeping Hydrated","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:food/hydration"}}'
+		"Knap two Leather Flask Sides from leather, then combine them with an animal bladder and string using this pack's 2x2 recipe. The guide explains the flask materials; use JEI for the modified assembly recipe."
+		'{"text":"Field Guide: Flask Materials","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:waterflasks/bladders"}}'
 	]
 	quest.4DB2379C62D52428.quest_subtitle: "Bring me wine...."
 	quest.4DB2379C62D52428.title: "Time in a bot- er flask."
 	quest.565A08CB3C543CC7.quest_desc: [
-		'{"text":"Field Guide: Weaving","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:crafting/weaving"}}'
+		"This quest needs both Supplementaries Wild Flax and an Oak TFC Loom. Harvest Wild Flax with shears, or Silk Touch, to collect the plant itself; breaking it normally only gives seeds. Flax Seeds and harvested Flax do not count as Wild Flax."
+		"Craft the Oak Loom from oak lumber and a stick. The guide explains the TFC loom and cloth recipes, not Supplementaries flax."
+		'{"text":"Field Guide: Weaving (TFC Loom)","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:crafting/weaving"}}'
 	]
 	quest.565A08CB3C543CC7.title: "Weaving anf Flax"
 	quest.5711190390E55513.quest_desc: [
-		"You can create a firepit by pressing Q to drop two logs, three sticks and optionally up to three straw then shift hold right click with a firestarter kit to ignite it."
+		"Craft a firestarter from two sticks. Drop one log and three sticks together on the same block, add up to five straw as kindling, then hold right click with the firestarter to light a firepit. It may take more than one attempt."
+		"This quest also needs Wood Ash: heat sticks into TFC Torches in the firepit, then drop those torches into water to turn them into ash and sticks."
 		'{"text":"Field Guide: Pits of Fire","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/firepit"}}'
+		'{"text":"Field Guide: Light Sources (TFC Torches and Ash)","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:core_mechanics/lighting"}}'
 	]
 	quest.5711190390E55513.quest_subtitle: "Moths to a flame..."
+	quest.5CE8D8BEDFFE69BF.quest_desc: [
+		"For the Tavern quest, obtain TFC Cooked Chicken. Hunt a TFC chicken and heat its raw meat in a firepit until cooked. Vanilla Cooked Chicken and raw TFC Chicken are different items."
+		'{"text":"Field Guide: Pits of Fire (Cooking)","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/firepit"}}'
+	]
 	quest.5CE8D8BEDFFE69BF.title: "Tavern"
 	quest.5FF374A3E7335E8F.quest_desc: ["They villagers will grow wheat and use it for thatch and food."]
 	quest.5FF374A3E7335E8F.title: "Grain Farm"
@@ -128,28 +179,42 @@
 	quest.6003B099530E837E.title: "Palace District"
 	quest.606382EE5076E7DE.quest_desc: [
 		"Back in the stone age before tannin, people would use the brains of the animal to tan the hide. This process is crude and primitive but it will get you leather early on."
-		'{"text":"Field Guide: Leatherworking","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:crafting/leather_making"}}'
+		"In this pack, craft a raw animal hide with a Waterflasks Bladder to make leather directly. Small, medium, and large hides yield 1, 2, and 3 Leather. No tannin or barrel is needed for this primitive recipe."
 	]
 	quest.606382EE5076E7DE.quest_subtitle: "Braaaiins"
 	quest.606382EE5076E7DE.title: "Primitive Tanning"
+	quest.61D2454A80318EA3.quest_desc: [
+		"Craft Rats Assorted Vegetables from nine vegetables accepted by JEI, then surround one Assorted Vegetables with eight flowers to make Herb Bundles. This task checks for a Rats Herb Bundle, not a TFC herb or a village building."
+	]
 	quest.61D2454A80318EA3.title: "Herbalist"
 	quest.643DC1EE431B3CBA.quest_desc: [
 		"There are all sorts of plants to eat. harvest one. Remember, if you are stuck or want to know more about what to use something for or how to make it, Press U or R on the item in the inventory respectively."
-		'{"text":"Field Guide: Flora","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:the_world/flora"}}'
+		"Harvest a wild crop and keep its seeds to complete this quest; picking an ordinary flower is not enough."
+		'{"text":"Field Guide: Wild Crops","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:the_world/wild_crops"}}'
 	]
 	quest.643DC1EE431B3CBA.quest_subtitle: "A time of sowing...."
-	quest.676069078BAB4DDA.quest_desc: ["Please look for a place to found your village. MAKE SURE YOU HAVE PLENTY OF CLEAR SPACE FOR THE CAMP!"]
+	quest.676069078BAB4DDA.quest_desc: [
+		"Please look for a place to found your village. MAKE SURE YOU HAVE PLENTY OF CLEAR SPACE FOR THE CAMP!"
+		"This is a manual checkmark, not automatic village detection. Mark it complete to claim the Survival Village Charter, then stand on clear ground and right-click the charter. An unsuitable location will not consume it."
+	]
 	quest.676069078BAB4DDA.quest_subtitle: "Get to it...."
 	quest.68049801C32E117C.quest_desc: ["This modpack features a skippable prologue in the Stone Age, although you can skip it, I highly reccommend you don't. The reward for completing the stone age is a bonus reward of resources, extra villagers, and more starting buildings. So, do you want to skip it?"]
 	quest.68049801C32E117C.quest_subtitle: "Time to choose....."
 	quest.68049801C32E117C.title: "Skip the Prologue?"
 	quest.68F20C026C690BF9.quest_desc: ["The Chapel is the first of many buildings to produce RESEARCH POINTS. Research Points are generated at the chapel for candles and food, and later paper. The points are used to unlock new technologies to advance forward."]
 	quest.68F20C026C690BF9.title: "Chapel"
-	quest.6BC749FF5B69B849.quest_desc: ["Building buildings on frames is hard when you can't stand on them. Build scaffolds to cimb and help you up the walls."]
+	quest.6BC749FF5B69B849.quest_desc: [
+		"Building buildings on frames is hard when you can't stand on them. Build scaffolds to cimb and help you up the walls."
+		"Craft Scaffolding using six TFC Bamboo and either String or Farmer's Delight Canvas. JEI shows the layout. The ordinary vanilla bamboo recipe is disabled; use the TFC bamboo recipe instead."
+	]
 	quest.6BC749FF5B69B849.quest_subtitle: "Support...."
+	quest.6D868BF6342654D8.quest_desc: [
+		"For the Garden quest, obtain one vanilla Carrot. The settlement trades vanilla crops; check its Town Hall. This task requires minecraft:carrot, not TFC Carrot, and it does not detect a planted garden."
+	]
 	quest.6D868BF6342654D8.title: "Garden"
 	quest.6DC37D9F62F817B8.quest_desc: [
 		"Glue can be obtained in the stone age by boiling and melting hides in water in a pot."
+		"Put one raw hide and 1000 mB of fresh water into a Ceramic Pot on a firepit, light it, and keep it boiling until the recipe finishes. Small, medium, and large hides yield 1, 2, and 3 Glue. The guide explains using the pot; JEI shows this pack's hide-glue recipe."
 		'{"text":"Field Guide: Firepit And Pot","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:food/pot"}}'
 	]
 	quest.6DC37D9F62F817B8.quest_subtitle: "Couldn't put it down....."
@@ -158,13 +223,18 @@
 	quest.70B2E15658CF50FD.title: "Logging Camp"
 	quest.751FAA8295010A00.quest_desc: [
 		"Clay can be used in a pit kiln to make ceramic goods. The small clay vessel will be needed to melt copper later."
+		"Hold at least five Clay and use it to knap an Unfired Small Vessel. Place it in a 1x1 hole with V, add eight TFC Straw and eight logs, light it, and wait six in-game hours. Collect the fired Small Vessel; the unfired version does not count."
 		'{"text":"Field Guide: Pottery","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/pottery"}}'
 		'{"text":"Field Guide: Pit Kilns","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/pit_kiln"}}'
 	]
 	quest.751FAA8295010A00.quest_subtitle: "Vessel unto honor...."
+	quest.796725D955488B18.quest_desc: [
+		"Craft three Plant Fibers or three Straw into Plant String, then combine three Plant String with a spindle to make vanilla String. The spindle is kept. This quest needs String, not Plant String."
+	]
 	quest.796725D955488B18.quest_subtitle: "Makes them ring....."
 	quest.7C526B4B998A48FE.quest_desc: [
-		'{"text":"Field Guide: Charcoal Pit","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:metalworking/charcoal_pit"}}'
+		"The settlement's Charcoal Mound is a village building, not a player-built TFC pit. This task checks for one Charcoal in your inventory. You can make it yourself with covered TFC log piles; the guide below explains that method only."
+		'{"text":"Field Guide: Charcoal Pit (Player-Made Charcoal)","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:metalworking/charcoal_pit"}}'
 	]
 	quest.7C526B4B998A48FE.title: "Charcoal Mound"
 	quest.7EEF0B2971C22D80.quest_desc: [
@@ -178,10 +248,76 @@
 	quest.7EEF0B2971C22D80.title: "Welcome to CivCraft!"
 	quest.7FD5B7E29422B13A.quest_desc: [
 		"Clay can be found almost anywhere, but you need to find a rich deposit of it when just starting out. Any dirt block can hold clay and you can see it on the side. Clay is useful for all sort of appilcations."
+		"Collect ten Clay Balls. Look near fresh water or beneath clay-indicator plants such as Goldenrod, Canna, and Athyrium Fern; the guide shows the indicators."
 		'{"text":"Field Guide: Pottery","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/pottery"}}'
-		'{"text":"Field Guide: Pit Kilns","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/pit_kiln"}}'
 	]
 	quest.7FD5B7E29422B13A.quest_subtitle: "Molded for the kiln"
+	quest.3020119467B3BA7F.quest_desc: [
+		"Craft a Millenaire Straw Bed from two Farmer's Delight Straw placed side by side. Each Farmer's Delight Straw is made from two TFC Straw. This is not the TFC thatch-and-hide bed."
+	]
+	quest.5357B53B098F46CF.quest_desc: [
+		"Craft a Sack from three Canvas and one String in the 2x2 grid. Canvas is made by drying Plant Fabric on an Extra Delight Drying Rack; this is the portable Supplementaries sack, not a basket."
+	]
+	quest.774846F5CF9D9B91.quest_desc: [
+		"Hold at least five Clay and use it to knap an Unfired Pickaxe Head Mold. Fire it in a pit kiln to make the ceramic mold required here; the unfired mold does not count."
+		'{"text":"Field Guide: Pottery (Tool Molds)","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/pottery"}}'
+		'{"text":"Field Guide: Pit Kilns","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/pit_kiln"}}'
+	]
+	quest.08C2D26A7304427E.quest_desc: [
+		"Melt copper-bearing ore in a Small Vessel in a pit kiln. Pour the liquid copper into a fired Pickaxe Head Mold, let it cool, then remove the head and craft it with a stick. This quest needs a finished Copper Pickaxe."
+		'{"text":"Field Guide: Ores, Metal, and Casting","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/finding_ores"}}'
+	]
+	quest.0A0B40BD69F8AB7F.quest_desc: [
+		"Knap an Unfired Pot from clay and fire it in a pit kiln. Use the Ceramic Pot on a firepit to attach it; add water and ingredients to boil recipes such as glue."
+		'{"text":"Field Guide: Firepit And Pot","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:food/pot"}}'
+		'{"text":"Field Guide: Pit Kilns","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/pit_kiln"}}'
+	]
+	quest.77C646943CE2264F.quest_desc: [
+		"Craft the Stone Mortar from two vanilla Stone placed diagonally in the 2x2 grid. Make the Stone Pestle from one vanilla Stone and one stick in a diagonal layout; JEI shows the placement. Put charcoal in the mortar and use the pestle to grind it into charcoal powder for torches."
+	]
+	quest.71F1A56E5B8F6B49.quest_desc: [
+		"Craft a vanilla Spruce Boat from five vanilla Spruce Planks in a U shape. Grow the vanilla saplings from Growing the Settlement; a TFC boat or a boat made from another wood does not complete this task."
+	]
+	quest.5CC5AB935F34F591.quest_desc: [
+		"Craft a Create Desk Bell from an Andesite Casing and a Gold Sheet. Use JEI to check the casing and sheet recipes. This is the small desk bell, not the vanilla village bell."
+	]
+	quest.741826F9C2CC5E6B.quest_desc: [
+		"Spin wool into TFC Wool Yarn with a spindle. Add 16 Wool Yarn to a TFC Loom, hold right click to work it, then right-click to collect Wool Cloth. This quest needs the cloth, not yarn or a wool block."
+		'{"text":"Field Guide: Weaving","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:crafting/weaving"}}'
+	]
+	quest.0D65AD9226F30850.quest_desc: [
+		"Craft the Quern base with three smooth stone blocks above three raw stone blocks; check JEI for the accepted stones. To use it, attach a Handstone, add the ingredient on top, turn the handle, and collect the output from the base. The base alone completes this quest."
+		'{"text":"Field Guide: Quern","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:crafting/quern"}}'
+	]
+	quest.356F487348BB19E5.quest_desc: [
+		"Normal crafting-table recipes for Paper are disabled in this pack. Cut TFC Papyrus into strips with a knife, soak the strips in a barrel of water, weave the soaked strips into Unrefined Paper on a loom, then place it on a log and scrape it with a knife."
+		"Follow the papyrus route in the guide. Its alternative parchment crafting recipe is disabled here."
+		'{"text":"Field Guide: Papermaking (Papyrus Route)","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:crafting/papermaking"}}'
+	]
+	quest.16EF8B41669A533D.quest_desc: [
+		"Make ordinary Bronze by melting copper and tin together in a Small Vessel, then cast the alloy into a fired Ingot Mold. Use 88-92% copper and 8-12% tin by metal units, not by item count. For example, nine small copper ore pieces and one small cassiterite yield 100 mB of bronze."
+		"Let the ingot cool and remove it from the mold. This task requires a TFC Bronze Ingot; Copper, Bismuth Bronze, and Black Bronze do not count."
+		'{"text":"Field Guide: Primitive Alloys","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/primitive_alloys"}}'
+		'{"text":"Field Guide: Ores, Metal, and Casting","color":"gold","underlined":true,"clickEvent":{"action":"open_url","value":"docs:patchouli,tfc:field_guide,tfc:getting_started/finding_ores"}}'
+	]
+	quest.305C40108ED69833.quest_desc: [
+		"Submit 10 Gold Deniers to receive a Religious Village Charter. Stand where you want the village and right-click the charter to found it. Leave plenty of clear ground; an unsuitable location will not consume the charter."
+	]
+	quest.5AC783C50DBD6F41.quest_desc: [
+		"Submit 10 Gold Deniers to receive a Mercantile Village Charter. Stand where you want the village and right-click the charter to found it. Leave plenty of clear ground; an unsuitable location will not consume the charter."
+	]
+	quest.39FE2E5208BECA66.quest_desc: [
+		"Submit 10 Gold Deniers to receive a Military Village Charter. Stand where you want the village and right-click the charter to found it. Leave plenty of clear ground; an unsuitable location will not consume the charter."
+	]
+	quest.35068C2AD6629152.quest_desc: [
+		"Submit 10 Gold Deniers to receive an Agricultural Village Charter. Stand where you want the village and right-click the charter to found it. Leave plenty of clear ground; an unsuitable location will not consume the charter."
+	]
+	quest.050390A6E07A5269.quest_desc: [
+		"Obtain a vanilla Beehive for this task, not a Bee Nest or an addon apiary. Its crafting recipe uses six wooden planks and three Honeycomb; check JEI for the accepted planks. Honeycomb comes from shearing a full vanilla nest or hive, so you need an existing bee colony first."
+	]
+	quest.08FFBD69EE6DD778.quest_desc: [
+		"Obtain a vanilla Iron Sword for this quest. Its ordinary crafting recipe is disabled by TFC, so look for a Millenaire foreign weapons merchant selling one. TFC Wrought Iron Swords and Norman Swords do not replace the vanilla item."
+	]
 	task.2D2921C4BB5C8E00.title: "Yes, Please skip it!"
 	task.439F4AB00E7DAA9B.title: "Gatherer"
 	task.4B8F544A40A708BF.title: "Place your camp."
