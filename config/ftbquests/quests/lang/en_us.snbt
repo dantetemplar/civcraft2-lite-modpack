@@ -46,7 +46,7 @@
 	quest.4273A09ACD552886.quest_desc: ["Congratulations on completing the prologue! You may now found a new settlement! Submit the materials and look for a FLAT SPACE to put the meeting hall hut."]
 	quest.4273A09ACD552886.quest_subtitle: "Where the heart is..."
 	quest.4273A09ACD552886.title: "Found your survival camp"
-	quest.42B602328067BAEF.quest_desc: ["Craft a TerraFirmaCraft workbench. In your inventory's 2x2 crafting grid, combine four lumber pieces of the same wood type to make one plank block. Then combine four matching plank blocks in a 2x2 square to make a workbench. Any TFC wood type counts. Keep the workbench in your inventory to complete this quest; if you already have one, move it to another inventory slot. Timber frames are covered by the next quest."]
+	quest.42B602328067BAEF.quest_desc: ["Craft a TerraFirmaCraft workbench from planks. Any TFC wood type will do. Remember, use JEI!"]
 	quest.42B602328067BAEF.title: "Crafting Table"
 	quest.43D3FAEB02847ACD.title: "Workshop"
 	quest.49CB452BDF2B8F38.quest_desc: ["The settlement, once it has made a quarry, can aquire stone."]
