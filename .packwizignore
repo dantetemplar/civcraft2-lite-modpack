@@ -21,6 +21,7 @@ screenshots
 crash-reports
 backups
 options.txt
+!config/fancymenu/options.txt
 optionsof.txt
 servers.dat
 servers.dat_old
