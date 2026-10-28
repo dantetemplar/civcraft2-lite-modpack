@@ -21512,7 +21512,7 @@ metafile = true
 
 [[files]]
 file = "mods/server-waypoint.pw.toml"
-hash = "5a379d99b244608a1a14f1979c7900383132c2ba953c45a683ed15ff93690071"
+hash = "51fea3e76e9a3634925498064c68201621eab575b99169c2259838847e88e336"
 metafile = true
 
 [[files]]
